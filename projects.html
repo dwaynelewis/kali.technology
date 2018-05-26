@@ -9,7 +9,9 @@
   <title>PROJECTS</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
 
 <style>
 * {
@@ -317,6 +319,63 @@ color: white;
   &:nth-of-type(4) { width: 100%; }
 }
 </style>
+
+<style>
+/* menu code */
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+</style>
 </head>
 
 <body>
@@ -324,7 +383,7 @@ color: white;
 <div id="frame">
   <h1 class="name">
 	<span class="copy-wrap">
-		DWAYNE R. LEWIS
+		KALI DIGITAL
   	</span>
 </h1>
 
@@ -345,6 +404,11 @@ color: white;
 </div>
 
 <h2 class="copyright">
+
+ <a href="home.html" class="links" id="link1" style="color:red;">HOME</a>
+
+
+
 	<span class="copy-wrap">
 
 	</span>
@@ -381,6 +445,7 @@ color: white;
 </div>
 
 <h2 class="copyright">
+   <a href="home.html" class="links" id="link1" style="color:red;">HOME</a>
 	<span class="copy-wrap">
 
 	</span>
@@ -415,6 +480,7 @@ color: white;
 </div>
 
 <h2 class="copyright">
+   <a href="home.html" class="links" id="link1" style="color:red;">HOME</a>
 	<span class="copy-wrap">
 
 	</span>
@@ -435,9 +501,6 @@ color: white;
   <img src="kalilogor.png" alt="Kali logo" style="height: 75px;></div>
 
 
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
 
 
 <script>
