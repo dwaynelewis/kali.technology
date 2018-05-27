@@ -15,13 +15,6 @@
 
 
 
-	/* @media screen and (max-width: 1100px){
-
-    .bubblehold {
-      display: none;
-    }
-
-} */
 
 body{
    -webkit-align-items: center;
@@ -29,67 +22,115 @@ body{
   align-items: center;
     font-family: 'Anton', sans-serif;
 }
-		a{
-		background-color: black;
-		opacity: .9;
-		color: black;
-		border-radius: 10px;
-		width: 120px;
-		height: 44px;
-		font-size: .75em;
-		text-align: center;
 
-		}
-		a:hover{
-
-		}
-
-    .video-container video {
-  display: block;
-  width: 100%;
-}
-
-.video-container {
-  margin: 40px auto;
-  outline: 1px solid #dadada;
-  &:nth-of-type(1) { width: 25%; } /* first video instance, and so on */
-  &:nth-of-type(2) { width: 50%; }
-  &:nth-of-type(3) { width: 75%; }
-  &:nth-of-type(4) { width: 100%; }
-}
 
 #bubble {
   font-size: 2rem;
 margin: auto;
   font-weight: bold;
-  text-shadow: 1px 1px red;
 }
 
+.bubblehold{
+   position:absolute;
+    top:13%;
+    left: 45%;
+}
+
+
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: red;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+@media screen and (max-width: 450px){
+.bubblehold{
+   left:32%;
+}
 }
     </style>
 </head>
 <body>
 
+<img src="kalilogor.png" alt="kali logo" width="100" height="100">
 
 
 
 
-<div class="video-container">
-  <video loop autoplay muted playsinline>
-    <source src="designer.webm" type="video/webm">
-      <source src="designer.mP4" type="video/mp4">
-      <source src="designer.ogg" type="video/ogg">
-  </video>
-</div>
-
-
-<div class="bubblehold" style="position:absolute; top:50%; left:20%; ">
-<div id="bubble" style="align-self: center;">KALI D.M.A.</div><br>
+<div class="bubblehold">
+<div id="bubble" style="align-self: center;">KALI</div><br>
 </div>
 
 
 
-	<!-- <a href="index.html" style="">HOME</a> -->
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="home.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
+
+<span style="position: absolute; top: 50%; left:0;font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
 
 
 
@@ -99,11 +140,9 @@ margin: auto;
   $(document).ready(function() {
       var $element = $('#bubble');
       var phrases = [
-          'digital branding',
-          'websites',
-          'mobile apps',
-          'commercials',
-          'social media',
+          'creative',
+          'motivated',
+          'skilled',
 
       ];
       var index = -1;

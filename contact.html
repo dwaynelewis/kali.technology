@@ -14,10 +14,9 @@
     *{
       font-family: 'Anton', sans-serif;
     }
-
 		body{
 			height: 100%;
-
+			color: white;
 		}
     .holdthis{
       margin: 0 auto;
@@ -46,11 +45,6 @@ text-decoration: none;
 margin: auto;
   font-weight: bold;
 }
-
-
-
-
-
 .overlay {
     height: 100%;
     width: 0;
@@ -63,7 +57,6 @@ margin: auto;
     overflow-x: hidden;
     transition: 0.5s;
 }
-
 .overlay-content {
     position: relative;
     top: 25%;
@@ -71,27 +64,23 @@ margin: auto;
     text-align: center;
     margin-top: 30px;
 }
-
 .overlay a {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: red;
     display: block;
     transition: 0.3s;
 }
-
 .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
 }
-
 .overlay .closebtn {
     position: absolute;
     top: 20px;
     right: 45px;
     font-size: 60px;
 }
-
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
@@ -100,14 +89,11 @@ margin: auto;
     right: 35px;
   }
 }
-
-
 </style>
 
 
 
   <style>
-
   * {
     margin: 0 auto;
     border: 0;
@@ -116,18 +102,14 @@ margin: auto;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
   }
-
   body {
-
   }
-
   .linear-container {
     width: 150%;
     margin-top: 1em;
     border: 1px solid black;
     position: fixed;
   }
-
   .linear {
     height: 100rem;
     width: 300%;
@@ -141,7 +123,6 @@ margin: auto;
           color-stop( 0.669, rgb(255, 0, 0) ),
           color-stop( 0.834, rgb(146, 213, 0) ),
           color-stop( 1.0, rgb(0, 213, 197) ));
-
     /*  Chrome 10+ Safari 5.1+ Mobile Safari  */
     background-image: -webkit-linear-gradient(left,
           rgb(255, 0, 0),
@@ -151,7 +132,6 @@ margin: auto;
           rgb(255, 0, 0) 66.9%,
           rgb(146, 213, 0) 83.4%,
           rgb(0, 213, 197) );
-
     /*  Firefox 3.6+  */
     background-image: -moz-linear-gradient(left,
           rgb(255, 0, 0),
@@ -161,7 +141,6 @@ margin: auto;
           rgb(255, 0, 0) 66.9%,
           rgb(146, 213, 0) 83.4%,
           rgb(0, 213, 197) );
-
     /*  IE 10+  */
     background-image: -ms-linear-gradient(left,
           rgb(255, 0, 0),
@@ -171,7 +150,6 @@ margin: auto;
           rgb(255, 0, 0) 66.9%,
           rgb(146, 213, 0) 83.4%,
           rgb(0, 213, 197) );
-
     /*  Opera 11.10+  */
     background-image: -o-linear-gradient(left,
           rgb(255, 0, 0),
@@ -181,7 +159,6 @@ margin: auto;
           rgb(255, 0, 0) 66.9%,
           rgb(146, 213, 0) 83.4%,
           rgb(0, 213, 197) );
-
     /*  W3C  */
     background-image: linear-gradient(left,
           rgb(255, 0, 0),
@@ -191,15 +168,11 @@ margin: auto;
           rgb(255, 0, 0) 66.9%,
           rgb(146, 213, 0) 83.4%,
           rgb(0, 213, 197) );
-
     -webkit-animation: moving_line_jquery 4s linear infinite reverse;
             animation: moving_line_jquery 4s linear infinite reverse;
-
   }
-
   @-webkit-keyframes moving_line_jquery { to { margin-left: -210%; } from {margin-left: -10%; } }
           @keyframes moving_line_jquery { to { margin-left: -210%; } from {margin-left: -10%; } }
-
 </style>
 
 
@@ -227,10 +200,10 @@ margin: auto;
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
-    <a href="#">ABOUT</a>
-    <a href="#">SERVICES</a>
-		<a href="#">CLIENTS</a>
-    <a href="#">CONTACT</a>
+    <a href="aboutus.html">ABOUT</a>
+    <a href="services.html">SERVICES</a>
+		<a href="clients.html">CLIENTS</a>
+    <a href="home.html">HOME</a>
   </div>
 </div>
 
@@ -250,7 +223,6 @@ margin: auto;
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
 }
-
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
@@ -264,8 +236,6 @@ $(document).ready(function() {
         'B R A N D I N G',
         'W E B S I T E S',
         'A P P S',
-
-
     ];
     var index = -1;
     (function loopAnimation() {
