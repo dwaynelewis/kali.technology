@@ -11,12 +11,6 @@
 <script type="text/javascript" src="textition.js"></script>
 <style>
 
-
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -30,6 +24,8 @@ body, html {
 
 body{
   position: relative;
+  text-shadow: .5px .5px black;
+
 }
 
 img {
@@ -55,6 +51,11 @@ height: 100vh;
 
 }
 
+a{
+  text-decoration: line-through;
+  color: #b80000;
+}
+
 
 
 
@@ -63,11 +64,11 @@ height: 100vh;
 <style>
 
 
+
 	@media screen and (max-width: 450px){
 
 body{
-   /* background: linear-gradient(to bottom,#18399a 0%, #4dd2ff 100%); */
-
+   background: linear-gradient(to bottom,#bdb76b 0%, #00CED1 100%);
 }
     	.textef{
     		width: 300px;
@@ -75,133 +76,39 @@ body{
     		text-align: center;
     		/* margin-right: 10px;
     		margin-top: 100px; */
-
-    		color:#6495ED;
-        position: absolute;
-   top:15%;
-   left: 8%;
-
+        text-shadow: .5px .5px black;
+    		color: white;
+        position: fixed;
+   top:45%;
+   left: 10%;
 
     	}
 
 
       img {
-          height: 5vh;
-          width: 30vw;
+      margin-left: auto;
+      margin-right: auto;
+          height: 10vh;
+          width: 35vw;
           position: absolute;
-          top:-49%;
-          left:60%;
-           background-color: #F7F8FA;
+          top:99%;
+          left:21%;
       }
       h2{
         position: absolute;
-        top:-299%;
-        left:-48%;
+        top:146%;
+        left:-3%;
         width:300px;
-          color:;
-        font-size: 16px;
+          color: #b80000;
       }
-
-
-      .bg {
-          /* The image used */
-          background-image: url("digi.jpg");
-
-          /* Full height */
-          height: 100%;
-
-          /* Center and scale the image nicely */
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-      }
-      #sub{
-        position: absolute;
-        top:15%;
-        left:5%;
-      }
-
-
-      .overlay {
-          height: 100%;
-          width: 0;
-          position: fixed;
-          z-index: 1;
-          top: 0;
-          left: 0;
-          /* background-color: rgb(0,0,0); */
-          /* background-color: rgba(0,0,0, 0.9); */
-          background-color: white;
-          opacity: .8;
-          overflow-x: hidden;
-          transition: 0.5s;
-      }
-
-      .overlay-content {
-          position: relative;
-          top: 25%;
-          width: 100%;
-          text-align: center;
-          margin-top: 30px;
-      }
-
-      .overlay a {
-          padding: 8px;
-          text-decoration: none;
-          font-size: 36px;
-          color:blue;
-          display: block;
-          transition: 0.3s;
-      }
-
-      .overlay a:hover, .overlay a:focus {
-          color: #f1f1f1;
-      }
-
-      .overlay .closebtn {
-          position: absolute;
-          top: 20px;
-          right: 45px;
-          font-size: 60px;
-      }
-
-      span.sp{
-        position: absolute;
-        top:5%;
-      }
-
-      @media screen and (max-height: 450px) {
-        .overlay a {font-size: 20px}
-        .overlay .closebtn {
-          font-size: 40px;
-          top: 15px;
-          right: 35px;
-        }
-
-      }
-    }
+}
 
 	@media screen and (min-width: 450px){
 
     body{
-      height: 100%;
-       /* background: linear-gradient(to bottom,white 0%, #18399a 100%); */
-         text-shadow: .5px .5px black;
+       background: linear-gradient(to bottom,white 0%, #00CED1 100%);
+         text-shadow: .5px .5px white;
     }
-
-
-.bg {
-    /* The image used */
-    background-image: url("digi.jpg");
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 	.textef{
 		width: 75%;
@@ -211,7 +118,7 @@ body{
     margin-right: auto;
 		margin-top: 100px;
 	  font-size: 24px;
-		color:;
+		color:#b0a94f;
       text-shadow: .5px .5px white;
       top:40%;
       left: 10%;
@@ -225,41 +132,33 @@ body{
       width: 16vw;
       position: absolute;
       top:26%;
-      left:23%;
+      left:36%;
   }
   h2{
     position:absolute;
     top:75%;
-    left:12%;
-      color: ;
-  }
-  #sub{
-    position: absolute;
-    top:5%;
-    left:13%;
-    background-color: #F8F8FF;
-    margin: 0;
-    padding: 0;
-    width: 380px;
+    left:36%;
+      color: #b80000;
   }
 }
-
 </style>
 </head>
 <body>
-
-<div class="bg"></div>
-
+<main>
+<a href="aboutus.html" class="intro animated rotateInDownLeft" style="position: absolute; top:5%; left: 5%;">-ABOUT US-</a>
+<a href="clients.html" class="intro animated rotateInDownRight" style="position: absolute; top:5%; right: 5%;">-CLIENTS-</a>
+<a href="services.html" class="intro animated bounceInUp" style="position: absolute; top:60%; left: 5%;">-FAQ-</a>
+<a href="contact.html" class="intro animated bounceInUp" style="position: absolute; top:60%; right: 5%;">-CONTACT-</a>
 
 
 <div id="sub">
   <img class="intro animated zoomInDown" src="kalilogor.png" alt="Kali logo">
-  <h2>PERSONAL BRAND SITE BUILDERS</h2>
+  <h2>PERSONAL BRAND SITE</h2>
 
 
 
 
-</div>
+
 
 <div id="autoplay" style="height: 1px; color:purple; ">
 
@@ -272,28 +171,8 @@ body{
 <div class="textef" style="margin-left: auto; margin-right: auto;">pitch 3</div>
 
 </div>
-
-
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="aboutus.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
-  </div>
 </div>
-
-<span class="sp" style="font-size:30px;cursor:pointer; color:#6495ED;" onclick="openNav()">&#9776; </span>
-
-<script>
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-}
-
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
-</script>
+</main>
 
 <script>
 $('#autoplay').delay(11000).textition({
