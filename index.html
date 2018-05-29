@@ -30,8 +30,6 @@ body, html {
 
 body{
   position: relative;
-  text-shadow: .5px .5px ,#18399a;
-
 }
 
 img {
@@ -55,10 +53,6 @@ height: 100vh;
   margin-right: auto;
   margin-top: 5%;
 
-}
-
-a{
-  text-decoration: none;
 }
 
 
@@ -126,11 +120,64 @@ body{
         top:15%;
         left:5%;
       }
-      ul{
-        position: absolute;
-        top:85%;
+
+
+      .overlay {
+          height: 100%;
+          width: 0;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: rgb(0,0,0);
+          background-color: rgba(0,0,0, 0.9);
+          overflow-x: hidden;
+          transition: 0.5s;
       }
-}
+
+      .overlay-content {
+          position: relative;
+          top: 25%;
+          width: 100%;
+          text-align: center;
+          margin-top: 30px;
+      }
+
+      .overlay a {
+          padding: 8px;
+          text-decoration: none;
+          font-size: 36px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+      }
+
+      .overlay a:hover, .overlay a:focus {
+          color: #f1f1f1;
+      }
+
+      .overlay .closebtn {
+          position: absolute;
+          top: 20px;
+          right: 45px;
+          font-size: 60px;
+      }
+
+      span.sp{
+        position: absolute;
+        top:5%;
+      }
+
+      @media screen and (max-height: 450px) {
+        .overlay a {font-size: 20px}
+        .overlay .closebtn {
+          font-size: 40px;
+          top: 15px;
+          right: 35px;
+        }
+
+      }
+
 
 	@media screen and (min-width: 450px){
 
@@ -194,19 +241,14 @@ body{
     width: 380px;
   }
 }
+}
 </style>
 </head>
 <body>
 
 <div class="bg"></div>
 
-<main>
-  <ul>
-<li><a href="aboutus.html" class="intro animated rotateInDownLeft" style="position: absolute;">ABOUT US</a></li>
-<li><a href="clients.html" class="intro animated rotateInDownRight" style="position: absolute;">CLIENTS</a></li>
-<li><a href="services.html" class="intro animated bounceInUp" style="position: absolute;">FAQ</a></li>
-<li><a href="contact.html" class="intro animated bounceInUp" style="position: absolute;">CONTACT</a></li>
-</ul>
+
 
 <div id="sub">
   <img class="intro animated zoomInDown" src="kalilogor.png" alt="Kali logo">
@@ -228,7 +270,28 @@ body{
 <div class="textef" style="margin-left: auto; margin-right: auto;">pitch 3</div>
 
 </div>
-</main>
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<span class="sp" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; enter</span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
 
 <script>
 $('#autoplay').delay(11000).textition({
