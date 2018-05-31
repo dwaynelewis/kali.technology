@@ -6,7 +6,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
       	<script src="jquery.bubble.text.js"></script>
 <title>"KALI"</title>
 
@@ -15,23 +15,60 @@
 
 
 
-body, html {
-    height: 100%;
-    margin: 0;
-}
 
-.bg {
-    /* The image used */
-    background-image: url("digir.jpg");
+  @keyframes spinner {
+    100% {
+      transform: rotate(3600deg);
+    }
+  }
 
-    /* Full height */
-    height: 100%;
+  .loading-container {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-50%);
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+  }
+
+  .spinner {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url('http://i.imgur.com/oSHLAzp.png') center center;
+    background-size: contain;
+    transition-origin: 50% 50%;
+    animation: spinner 3s infinite alternate ease-in-out;
+  }
+  .spinner-center {
+    display: inline-block;
+    position: absolute;
+    margin-left: -100px;
+    width: 100px;
+    height: 100px;
+    background: url('http://i.imgur.com/u0BC2ZR.png') center center;
+    background-size: contain;
+    content: '';
+  }
+
+  #intro{
+    height: 1500px;
+    background-color: white;
+  }
+
+
+  #outro{
+    display: none;
+  }
+
+
+
+
+	@media screen and (max-width: 1100px){
+
+    .bubblehold {
+      font-size: 24px;
+    }
 
 
 
@@ -39,133 +76,123 @@ body{
    -webkit-align-items: center;
   text-align: center;
   align-items: center;
-    font-family: 'Anton', sans-serif;
+  background-color: #B00000;
+}
+		a{
+		background-color: black;
+		opacity: .9;
+		color: white;
+		border-radius: 10px;
+		width: 120px;
+		height: 44px;
+		font-size: .75em;
+		text-align: center;
+		font-size: 200%
+		}
+		a:hover{
+
+		}
+
+    .video-container video {
+  display: block;
+  width: 100%;
 }
 
+.video-container {
+  position: absolute;
+  top:15rem;
+  /* outline: 1px solid #dadada; */
+  &:nth-of-type(1) { width: 25%; } /* first video instance, and so on */
+  &:nth-of-type(2) { width: 50%; }
+  &:nth-of-type(3) { width: 75%; }
+  &:nth-of-type(4) { width: 100%; }
+}
 
 #bubble {
-  font-size: 2rem;
+  font-size: 1rem;
 margin: auto;
   font-weight: bold;
+  font-family: 'Dosis', sans-serif;
 }
 
-.bubblehold{
-   position:absolute;
-    top:13%;
-    left: 45%;
-}
-
-
-
-
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
+#logom{
+  position: absolute;
+  top:19%;
+  left: 5%;
+    height: 20vh;
+    width:28vw;
+    visibility: visible;
     z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
 }
 
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: white;
-    display: block;
-    transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-
-
-@media screen and (max-width: 450px){
-.bubblehold{
-  top:16%;
-   left:32%;
-}
 }
     </style>
 </head>
 <body>
 
-<img src="kalilogor.png" alt="kali logo" width="100" height="100">
+
+    <div id="intro">
+
+        <div class="loading-container">
+        <div class="spinner"></div>
+        <div class="spinner-center"></div>
+
+      </div>
+    </div>
+
+    <div id="outro">
 
 
 
+      <img id="logom" src="kalilogo.png" class="intro animated zoomInDown" alt="Kali logo">
 
-<div class="bg"></div>
 
+<div class="video-container">
+  <video loop autoplay muted playsinline>
+    <source src="office.webm" type="video/webm">
+      <source src="office.mp4" type="video/mp4">
+      <source src="office.ogg" type="video/ogg">
+  </video>
 
 <div class="bubblehold">
-<div id="bubble" style="align-self: center;">KALI</div><br>
+<div id="bubble" style="align-self: center;"></div><br>
+</div>
+
+</div>
+
+
 </div>
 
 
 
+  	<script> //INTRO
+  $(document).ready(function(){
+      $(function(){
 
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="home.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
-  </div>
-</div>
+          $("#intro").delay(1000).fadeOut("slow");
 
-<span style="position: absolute; top: 50%; left:0;font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+       });
+   });
+   </script>
+   <script>
+  $(document).ready(function(){
+      $(function(){
 
-<script>
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-}
-
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
-</script>
-
-
-
+          $("#outro").delay(1500).fadeIn("slow");
+      });
+  });
+  </script>
 
 
   <script>
   $(document).ready(function() {
       var $element = $('#bubble');
       var phrases = [
-          'creative',
-          'motivated',
-          'skilled',
+          'branding',
+          'websites',
+          'mobile apps',
+          'commercials',
+          'vip service',
 
       ];
       var index = -1;
