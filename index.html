@@ -24,7 +24,7 @@
 
 body{
   position: relative;
-  text-shadow: .5px .5px black;
+
 
 }
 
@@ -53,7 +53,6 @@ height: 100vh;
 
 a{
   text-decoration: line-through;
-  color: white;
 }
 
 #autoplay{
@@ -61,12 +60,26 @@ a{
 }
 
 #intro{
-  height: 100%;
+  height: 100rem;
 }
 
 #outro{
   display: none;
 }
+
+#sun{
+          display: block;
+         text-align: center;
+         text-decoration: none;
+         -webkit-animation-duration: 2s;
+         -webkit-animation-delay: 2s;
+         -webkit-animation-iteration-count: 1;
+         width: 100%;
+
+        }
+
+
+
 
 
 
@@ -81,6 +94,34 @@ a{
 body{
    background: linear-gradient(to bottom,#2B2F3F 0%, #B8C950 100%);
 }
+
+
+    #intro{
+      background-color:black;
+      text-align: center;
+    }
+    #sun{
+      height:10rem;
+      width:10rem;
+
+}
+
+        #logo{
+
+          height: 17vh;
+          width: 32vw;
+        }
+
+        #p1{
+            color:white;
+            margin-top: 1rem;
+
+        }
+        #p2{
+              color:#B8C950;
+`                 margin-top: 1rem;`
+        }
+
     	.textef{
     		width: 300px;
     		height: 21px;
@@ -92,11 +133,10 @@ body{
         position: fixed;
    top:45%;
    left: 10%;
+}
 
-    	}
 
-
-      img {
+      #logom{
       margin-left: auto;
       margin-right: auto;
           height: 10vh;
@@ -104,13 +144,18 @@ body{
           position: absolute;
           top:99%;
           left:21%;
+
       }
-      h2{
+      #pb{
         position: absolute;
         top:146%;
         left:-3%;
         width:300px;
           color: #F2DA38;
+
+      }
+      a{
+        color: red;
       }
 
       #autoplay{
@@ -122,8 +167,20 @@ body{
 	@media screen and (min-width: 450px){
 
     body{
-       background: linear-gradient(to bottom,white 0%, #00CED1 100%);
-         text-shadow: .5px .5px white;
+       background: linear-gradient(to bottom,white 0%, #2B2F3F 100%);
+
+    }
+
+    #intro{
+      background-color:white;
+      text-align: center;
+    }
+
+
+
+    #autoplay{
+      top:85%;
+      left:41%;
     }
 
 	.textef{
@@ -134,27 +191,31 @@ body{
     margin-right: auto;
 		margin-top: 100px;
 	  font-size: 24px;
-		color:#b0a94f;
-      text-shadow: .5px .5px white;
+		color:white;
+
       top:40%;
       left: 10%;
 
 	}
 
-  img {
+  #logom{
   margin-left: auto;
   margin-right: auto;
-      height: 11vh;
+      height: 18vh;
       width: 16vw;
       position: absolute;
       top:26%;
       left:36%;
+
   }
-  h2{
+  #pb{
     position:absolute;
-    top:75%;
+    top:100%;
     left:36%;
-      color: #b80000;
+      color:darkred;
+  }
+  a{
+    color:darkred;
   }
 }
 </style>
@@ -163,6 +224,14 @@ body{
 
 
   <div id="intro">
+
+    <img src="kalisun.png" id="sun" class="intro animated rollIn">
+
+    <img src="kalilogor.png" id="logo" class="intro animated zoomInDown" alt="Kali logo">
+
+    <h2 id="p1" class="intro animated slideInLeft">PITCH 1</h2>
+      <h2 id="p2" class="intro animated slideInRight">PITCH 2</h2>
+        <h2 id="p3" class="intro animated slideInLeft">PITCH 3</h2>
 
   </div>
 
@@ -175,8 +244,8 @@ body{
 
 
 <div id="sub">
-  <img class="intro animated zoomInDown" src="kalilogor.png" alt="Kali logo">
-  <h2>PERSONAL BRAND SITE</h2>
+  <img id="logom" src="kalilogo.png" class="intro animated zoomInDown" alt="Kali logo">
+  <h2 id="pb">PERSONAL BRAND SITE</h2>
 
 
 
@@ -203,7 +272,7 @@ body{
   $(document).ready(function(){
       $(function(){
 
-          $("#intro").delay(2000).fadeOut("slow");
+          $("#intro").delay(5000).fadeOut("slow");
 
        });
    });
@@ -212,7 +281,7 @@ body{
   $(document).ready(function(){
       $(function(){
 
-          $("#outro").delay(2500).fadeIn("slow");
+          $("#outro").delay(5500).fadeIn("slow");
       });
   });
   </script>
