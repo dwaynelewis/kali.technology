@@ -56,6 +56,17 @@ a{
   color: white;
 }
 
+#autoplay{
+  position: absolute;
+}
+
+#intro{
+  height: 100%;
+}
+
+#outro{
+  display: none;
+}
 
 
 
@@ -101,6 +112,11 @@ body{
         width:300px;
           color: #F2DA38;
       }
+
+      #autoplay{
+        top:188%;
+        left:-33%;
+      }
 }
 
 	@media screen and (min-width: 450px){
@@ -144,6 +160,13 @@ body{
 </style>
 </head>
 <body>
+
+
+  <div id="intro">
+
+  </div>
+
+  <div id="outro">
 <main>
 <a href="aboutus.html" class="intro animated rotateInDownLeft" style="position: absolute; top:5%; left: 5%;">-ABOUT US-</a>
 <a href="clients.html" class="intro animated rotateInDownRight" style="position: absolute; top:5%; right: 5%;">-CLIENTS-</a>
@@ -173,7 +196,26 @@ body{
 </div>
 </div>
 </main>
+</div>
 
+
+  	<script> //INTRO
+  $(document).ready(function(){
+      $(function(){
+
+          $("#intro").delay(2000).fadeOut("slow");
+
+       });
+   });
+   </script>
+   <script>
+  $(document).ready(function(){
+      $(function(){
+
+          $("#outro").delay(2500).fadeIn("slow");
+      });
+  });
+  </script>
 <script>
 $('#autoplay').delay(11000).textition({
 
