@@ -1,285 +1,279 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-	<script src="jquery.bubble.text.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <title>Single contact page</title>
 
-    <title>CONTACT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Raleway:200,400'>
+
+
+
 
 		<style>
-    *{
-      font-family: 'Anton', sans-serif;
-    }
-		body{
-			height: 100%;
-			background-color:black;
+
+		.overlay {
+		    height: 100%;
+		    width: 0;
+		    position: fixed;
+		    z-index: 1;
+		    top: 0;
+		    left: 0;
+		    background-color: rgb(0,0,0);
+		    background-color: rgba(0,0,0, 0.9);
+		    overflow-x: hidden;
+		    transition: 0.5s;
+
 		}
 
-    .email{
-      position: absolute;
-      margin-top:11.5rem;
-      text-align: center;
-      width: 100%;
-			color:;
-    }
-		.num{
-			position: absolute;
-			  margin-top:21.5rem;
-			width: 100%;
-			text-align: center;
-			color:;
+
+		.overlay-content {
+		    position: relative;
+		    top: 25%;
+		    width: 100%;
+		    text-align: center;
+		    margin-top: 30px;
 		}
 
-span{
-	top:0;
-	left:0;
-	width: 100%;
-	text-align: center;
-
-	color:white ;
-	font-size: 24px;
-}
-
-
-	.linear-container1 {
-	  width: 150%;
-	  margin-top: 10rem;
-	  border: 1px solid black;
-	  position: fixed;
-	}
-
-
-		.linear-container2 {
-		  width: 150%;
-		  margin-top: 20rem;
-		  border: 1px solid black;
-		  position: fixed;
-		}
-		.linear-container3 {
-		  width: 150%;
-		  margin-top: 30rem;
-		  border: 1px solid black;
-		  position: fixed;
-		}
-		.linear-container4 {
-		  width: 150%;
-		  margin-top: 40rem;
-		  border: 1px solid black;
-		  position: fixed;
+		.overlay a {
+		    padding: 8px;
+		    text-decoration: none;
+		    font-size: 36px;
+		    color: white;
+		    display: block;
+		    transition: 0.3s;
+          font-family: 'Raleway', sans-serif;
 		}
 
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color:black;
-    /* background-color: rgba(0,0,0, 0.9); */
-    overflow-x: hidden;
-		opacity: .7;
-    transition: 0.5s;
-}
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color:red;
-    display: block;
-    transition: 0.3s;
-}
-.overlay a:hover, .overlay a:focus {
-    color: purple;
-}
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+		.overlay a:hover, .overlay a:focus {
+		    color: #f1f1f1;
+		}
+
+		.overlay .closebtn {
+		    position: absolute;
+		    top: 20px;
+		    right: 45px;
+		    font-size: 60px;
+		}
+
+		@media screen and (max-height: 450px) {
+		  .overlay a {font-size: 20px}
+		  .overlay .closebtn {
+		    font-size: 40px;
+		    top: 15px;
+		    right: 35px;
+		  }
+		}
+		</style>
+
+
+
+<style>
+html,
+body {
+  height: 100%
 }
 
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
+body {
+  text-align: right;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  background: #999 url(her.jpg) center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-right: 50px
 }
 
+body:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(40, 40, 45, 0.8);
+  width: 100%;
+  height: 100%;
+  z-index: -1
+}
 
+h1 {
+  width: 100%;
+  margin: 40vh 0 3vh 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 3em
+}
 
+i {
+  display: block;
+  width: 100%;
+  margin-bottom: 4vh
+}
 
-* {
-		margin: 0 auto;
-		border: 0;
-		padding: 0;
-		box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-	}
+.fa {
+  display: inline-block;
+  background: #037;
+  color: #ddd;
+  text-decoration: none;
+  padding-top: 12px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20%;
+  box-sizing: border-box;
+  margin-left: 15px;
+  box-shadow: 0 -50px 0 0 rgba(0, 0, 0, 0) inset;
+  transition: all 0.4s;
+}
 
-	body {
+.fa:hover {
+  color: #fff;
+  box-shadow: 0 -50px 0 0 rgba(0, 0, 0, 0.5) inset
+}
 
-	}
+.fa:nth-of-type(2) {
+  background: #08c
+}
 
+.fa:nth-of-type(3) {
+  background: #d10
+}
 
-	.linear {
-		height: 5rem;
-	  width: 300%;
-	  /***  CSS Gradient  ***/
-	  /*  Chrome 1-9 and Safari 4-5.0  */
-	  background-image: -webkit-gradient(linear, left top, right top,
-	        color-stop( 0.0, rgb(255, 0, 0) ),
-	        color-stop( 0.168, rgb(146, 213, 0) ),
-	        color-stop( 0.336, rgb(0, 213, 197) ),
-	        color-stop( 0.502, rgb(213, 0, 196) ),
-	        color-stop( 0.669, rgb(255, 0, 0) ),
-	        color-stop( 0.834, rgb(146, 213, 0) ),
-	        color-stop( 1.0, rgb(0, 213, 197) ));
+.fa:nth-of-type(4) {
+  background: #eb0
+}
 
-	  /*  Chrome 10+ Safari 5.1+ Mobile Safari  */
-	  background-image: -webkit-linear-gradient(left,
-	        rgb(255, 0, 0),
-	        rgb(146, 213, 0) 16.8%,
-	        rgb(0, 213, 197) 33.6%,
-	        rgb(213, 0, 196) 50.2%,
-	        rgb(255, 0, 0) 66.9%,
-	        rgb(146, 213, 0) 83.4%,
-	        rgb(0, 213, 197) );
-
-	  /*  Firefox 3.6+  */
-	  background-image: -moz-linear-gradient(left,
-	        rgb(255, 0, 0),
-	        rgb(146, 213, 0) 16.8%,
-	        rgb(0, 213, 197) 33.6%,
-	        rgb(213, 0, 196) 50.2%,
-	        rgb(255, 0, 0) 66.9%,
-	        rgb(146, 213, 0) 83.4%,
-	        rgb(0, 213, 197) );
-
-	  /*  IE 10+  */
-	  background-image: -ms-linear-gradient(left,
-	        rgb(255, 0, 0),
-	        rgb(146, 213, 0) 16.8%,
-	        rgb(0, 213, 197) 33.6%,
-	        rgb(213, 0, 196) 50.2%,
-	        rgb(255, 0, 0) 66.9%,
-	        rgb(146, 213, 0) 83.4%,
-	        rgb(0, 213, 197) );
-
-	  /*  Opera 11.10+  */
-	  background-image: -o-linear-gradient(left,
-	        rgb(255, 0, 0),
-	        rgb(146, 213, 0) 16.8%,
-	        rgb(0, 213, 197) 33.6%,
-	        rgb(213, 0, 196) 50.2%,
-	        rgb(255, 0, 0) 66.9%,
-	        rgb(146, 213, 0) 83.4%,
-	        rgb(0, 213, 197) );
-
-	  /*  W3C  */
-	  background-image: linear-gradient(left,
-	        rgb(255, 0, 0),
-	        rgb(146, 213, 0) 16.8%,
-	        rgb(0, 213, 197) 33.6%,
-	        rgb(213, 0, 196) 50.2%,
-	        rgb(255, 0, 0) 66.9%,
-	        rgb(146, 213, 0) 83.4%,
-	        rgb(0, 213, 197) );
-
-	  -webkit-animation: moving_line_jquery 4s linear infinite reverse;
-	          animation: moving_line_jquery 4s linear infinite reverse;
-
-	}
-
-	@-webkit-keyframes moving_line_jquery { to { margin-left: -210%; } from {margin-left: -10%; } }
-	        @keyframes moving_line_jquery { to { margin-left: -210%; } from {margin-left: -10%; } }
-
+.fa:nth-of-type(5) {
+  background: #0c6
+}
 </style>
+
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      html,
+body {
+  height: 100%
+}
+
+body {
+  text-align: right;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  background: #999 url(herc.jpg) center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-right: 50px
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(40, 40, 45, 0.8);
+  width: 100%;
+  height: 100%;
+  z-index: -1
+}
+
+h1 {
+  width: 100%;
+  margin: 40vh 0 3vh 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 3em
+}
+
+i {
+  display: block;
+  width: 100%;
+  margin-bottom: 4vh
+}
+
+.fa {
+  display: inline-block;
+  background: #037;
+  color: #ddd;
+  text-decoration: none;
+  padding-top: 12px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20%;
+  box-sizing: border-box;
+  margin-left: 15px;
+  box-shadow: 0 -50px 0 0 rgba(0, 0, 0, 0) inset;
+  transition: all 0.4s;
+}
+
+.fa:hover {
+  color: #fff;
+  box-shadow: 0 -50px 0 0 rgba(0, 0, 0, 0.5) inset
+}
+
+.fa:nth-of-type(2) {
+  background: #08c
+}
+
+.fa:nth-of-type(3) {
+  background: #d10
+}
+
+.fa:nth-of-type(4) {
+  background: #eb0
+}
+
+.fa:nth-of-type(5) {
+  background: #0c6
+}
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 </head>
 
 <body>
 
-	<div class="linear-container1">
-	<div class="linear">
+  <h1>Your Name Here</h1>
+<i>Profession and Title</i>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-pinterest"></a>
+
+<div style="font-size: 12px;  text-align: center;  color: #666;  background:rgba(0,0,0,0.7);  width: 100vw;  position: absolute;  bottom: 0px;  opacity: 0.9;padding:5px 0;">KALI</div>
 
 
+	<div id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<a href="aboutme.html">ABOUT</a>
+			<a href="work.html">WORK</a>
+			<a href="home.html">HOME</a>
+		</div>
 	</div>
-	</div>
-
-	<div class="email"><h2>H E L L O @ K A L I . D I G I T A L</h2></div>
 
 
-				<div class="linear-container2">
-				<div class="linear">
+  	<span style="position: absolute; top:0; left:0; font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+  <script>
+  function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
+
+    <script  src="js/index.js"></script>
 
 
-				</div>
-				</div>
-
-					<div class="num"><h2>9 1 7 4 6 3 7 3 0 3</h2></div>
-
-					<div class="linear-container3">
-					<div class="linear">
-
-
-					</div>
-					</div>
-
-					<div class="linear-container4">
-					<div class="linear">
-
-
-					</div>
-					</div>
 
 
 </body>
 
-</html>
-
-
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="aboutus.html">ABOUT</a>
-    <a href="services.html">SERVICES</a>
-		<a href="clients.html">CLIENTS</a>
-    <a href="home.html">HOME</a>
-  </div>
-</div>
-
-<span style="cursor:pointer; position:absolute;" onclick="openNav()">&#9776; MENU</span>
-
-
-
-
-
-<script>
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-}
-function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-}
-</script>
-
-
-
-</body>
 </html>
