@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>LAURA MARTIN</title>
+<title>dwaynerlewis</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -29,18 +29,58 @@ a{
 
 #outro{
   display:none;
+  height: 100%;
+  width:100%;
 }
+
+
+
+  @keyframes spinner {
+    100% {
+      transform: rotate(3600deg);
+    }
+  }
+
+  .loading-container {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-50%);
+  }
+
+  .spinner {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url('http://i.imgur.com/oSHLAzp.png') center center;
+    background-size: contain;
+    transition-origin: 50% 50%;
+    animation: spinner 3s infinite alternate ease-in-out;
+  }
+  .spinner-center {
+    display: inline-block;
+    position: absolute;
+    margin-left: -100px;
+    width: 100px;
+    height: 100px;
+    background: url('http://i.imgur.com/u0BC2ZR.png') center center;
+    background-size: contain;
+    content: '';
+  }
+
+
+
 
 	@media screen and (max-width: 450px){
 
 
+
     #intro{
-    background: linear-gradient(to bottom, grey 0%, darkgrey 100%);
+        background: white;
       height: 100%;
     }
-    #outro{
-      display: none;
-    }
+
 
 .pic {
     /* The image used */
@@ -84,7 +124,7 @@ font-size: 4vw;
 position: absolute;
 top:20%;
 left:60%;
-color: #DC143C;
+color: lightgrey;
 width: 20%;
 
 -webkit-animation-duration: 3s;
@@ -99,7 +139,7 @@ font-size: 2vw;
 position: absolute;
 top:70%;
 left:62%;
-color: #CD5C5C;
+color: grey;
 width: 20%;
 
 -webkit-animation-duration: 3s;
@@ -123,6 +163,18 @@ text-align: center;
 -webkit-animation-iteration-count: 1;
 }
 
+.content .transparency {
+    position: absolute;
+    bottom: 0;
+    /* background: rgba(0, 0, 0, 0.6); /* Black background with transparency */ */
+    color: red;
+    width: 100%;
+    padding: 20px;
+    height: 10%;
+    text-align: center;
+    align-items: center;
+
+}
 div#link5.transparency2 {
     position: absolute;
     left:0;
@@ -148,10 +200,11 @@ div#link5.transparency2 {
   top:41%;
   left:25%;
   -webkit-animation-duration: .75s;
-  -webkit-animation-delay: 0.5s;
-  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 2;
    text-shadow: 2px 4px black;
 }
+
 
 
 }
@@ -208,7 +261,7 @@ width: 100%;
 position: absolute;
 top:3%;
 left:63%;
-color: #CD5C5C;
+color: grey;
 width: 20%;
    text-shadow: 1px 1px black;
 -webkit-animation-duration: 3s;
@@ -222,7 +275,7 @@ width: 20%;
 position: absolute;
 top:38%;
 left:36%;
-color: #CD5C5C;
+color: grey;
 width: 20%;
   font-size: 200%;
    text-shadow: 1px 1px black;
@@ -238,11 +291,11 @@ font-size: 2vw;
 position: absolute;
 bottom:5%;
 right:5%;
-color: hotpink;
+color: darkgrey;
 width: 20%;
      text-shadow: 1px 1px black;
 -webkit-animation-duration: 1.5s;
--webkit-animation-delay: 3s;
+-webkit-animation-delay: 4s;
 -webkit-animation-iteration-count: 1;
 }
 
@@ -267,7 +320,7 @@ width: 20%;
 }
 
 #intro{
-background: linear-gradient(to bottom, #F08080 0%, #B22222 100%);
+    background: white;
   height: 100%;
 }
 
@@ -301,7 +354,7 @@ background: linear-gradient(to bottom, #F08080 0%, #B22222 100%);
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: lightgrey;
+    color: darkgrey;
     display: block;
     transition: 0.3s;
 }
@@ -327,37 +380,46 @@ background: linear-gradient(to bottom, #F08080 0%, #B22222 100%);
 }
 
 
+
+
+
 </style>
 </head>
 <body>
 
 
-<div id="intro">
-	<h1 id="name" class= "intro animated zoomIn">w e l c o m e</h1>
-</div>
 
-<div id="outro" style="height:100%;">
+  <div id="intro">
+
+      <div class="loading-container">
+      <div class="spinner"></div>
+      <div class="spinner-center"></div>
+    </div>
+  </div>
+
+<div id="outro">
 <div class="pic">
 <div class="content">
 
 
-	<div id="link1"  class= "intro animated bounceInDown"><h1 style="color:#d49859;">RICK DAVY</h1>
-    <p style="margin-bottom: 0;">MODEL<p style="color: lightgrey; font-size: 30px;">STYLIST</p></div>
-    <a  id="link4" class="intro animated bounceInUp" onclick="openNav()"><h2>enter</h2></a>
-  <a href="#" id="link2" class="intro animated bounceInDown"><h2></h2></a>
-    <a href="#" id="link3" class="intro animated bounceInUp"><h2></h2></a>
+  	<div id="link1"  class= "intro animated bounceInDown"><h1 style="color:lightgrey;">RICK DAVY</h1>
+      <p style="margin-bottom: 0;">MODEL<p style="color: grey; font-size: 30px;">STYLIST</p></div>
+      <a  id="link4" class="intro animated bounceInUp" onclick="openNav()"><h2>ENTER</h2></a>
+    <a href="#" id="link2" class="intro animated bounceInDown"><h2></h2></a>
+      <a href="#" id="link3" class="intro animated bounceInUp"><h2></h2></a>
 
-          <a id="link6" class="intro animated slideInUp"  onclick="openNav()"><h2>ENTER</h2></a>
-        <div class="transparency2" id="link5" class= "intro animated bounceInDown">
-          <h1 style="color:white;line-height: .3; margin-top: 10%;  margin-bottom: 5px;">RICK DAVY</h1>
-          <p style="color:darkgrey; margin-bottom: 0;">FASHION<p style="font-size: 12px; color:white;">STYLIST</p></div>
+            <a id="link6" class="intro animated slideInUp"  onclick="openNav()"><h2>enter</h2></a>
+          <div class="transparency2" id="link5" class= "intro animated bounceInDown">
+            <h1 style="color:white;line-height: .3; margin-top: 10%;  margin-bottom: 5px;">LAURA MARTIN</h1>
+            <p style="color:darkgrey; margin-bottom: 0;">MODEL<p style="font-size: 12px; color:white;">INFLUENCER</p></div>
 
+</div>
 
 </div>
 
-</div>
-</div>
 
+
+</div>
 
 
 
@@ -367,11 +429,10 @@ background: linear-gradient(to bottom, #F08080 0%, #B22222 100%);
   <div class="overlay-content">
     <a href="aboutme.html">about</a>
     <a href="services.html">services</a>
-    <!-- <a href="#">clients</a> -->
+    <a href="#">clients</a> -->
     <a href="contact.html">contact</a>
   </div>
 </div>
-
 
 
 <script>
@@ -384,24 +445,24 @@ function closeNav() {
 }
 </script>
 
-	<script> //INTRO
-$(document).ready(function(){
-    $(function(){
 
-          $(".intro animated zoomIn").delay(1000).fadeOut("slow");
-        $("#intro").delay(1000).fadeOut("slow");
+  	<script> //INTRO
+  $(document).ready(function(){
+      $(function(){
 
-     });
- });
- </script>
- <script>
-$(document).ready(function(){
-    $(function(){
+          $("#intro").delay(1500).fadeOut("slow");
 
-        $("#outro").delay(2500).fadeIn("slow");
-    });
-});
-</script>
+       });
+   });
+   </script>
+   <script>
+  $(document).ready(function(){
+      $(function(){
+
+          $("#outro").delay(2000).fadeIn("slow");
+      });
+  });
+  </script>
 
 </body>
 </html>
