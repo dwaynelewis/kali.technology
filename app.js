@@ -46,6 +46,8 @@ app.post('/contact', validators, (req, res) => {
     }).catch(err => res.send(err))
 });
 
-app.listen(1800, function () {
-  console.log('App listening on port 1800!')
+const port = process.env.PORT || '1800'
+
+app.listen(port, function () {
+  console.log(`App listening on port ${port}!`);
 });
