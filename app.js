@@ -1,6 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const sendgridMail = require('@sendgrid/mail');
+const { check, validationResult } = require('express-validator/check');
+
 require('dotenv').config()
 
 
@@ -11,11 +13,21 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static(__dirname + '/public'));
 
-app.post('/contact', (req, res) => {
-    console.log(req.body);
+const validators = [
+    check('email').isEmail(),
+    check('name').isLength({ min: 3 }),
+    check('comments').isLength({ min: 3 })
+];
+
+app.post('/contact', validators, (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+        return res.send('Ensure you have the name, email and message fields filled properly');
+    }
+
     const { name, email, phone, subject, comments } = req.body;
-    sendgridMail.setApiKey(process.env.SENDGRID_API_KEY);
     
+    sendgridMail.setApiKey(process.env.SENDGRID_API_KEY);
     const msg = {
         to: process.env.EMAIL,
         from: 'noreply@kali-digital.com',
