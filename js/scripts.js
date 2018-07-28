@@ -537,10 +537,11 @@ function initSolonick() {
         var a = $(this).attr("action");
 
         $.post(a, {
-            email: $("#subscribe-email").val()
+            email: $("subscribe-email").val()
         }, function() {
             $("#subscribe-email").val("");
         });
+        return false;
     });
     $.ajaxChimp.translations.eng = {
         submit: "Submitting...",
