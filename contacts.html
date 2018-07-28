@@ -330,7 +330,7 @@
                                 <div class="footer-box fl-wrap">
                                     <p>Want to be notified when we launch a new webinar or article. Just sign up and we'll send you a notification by email.</p>
                                     <div class="subcribe-form fl-wrap">
-                                        <form id="subscribe" class="fl-wrap">
+                                        <form id="subscribe" class="fl-wrap" action="/api/newsletter" method="POST" enctype="application/x-www-form-urlencoded">
                                             <input class="enteremail" name="email" id="subscribe-email" placeholder="email" spellcheck="false" type="text">
                                             <button type="submit" id="subscribe-button" class="subscribe-button"><i class="fal fa-paper-plane"></i> Send </button>
                                             <label for="subscribe-email" class="subscribe-message"></label>
