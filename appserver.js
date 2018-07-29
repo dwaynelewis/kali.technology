@@ -24,7 +24,7 @@ app.post('/api/contact', async(req, res, next) => {
             <b>Comments: </b> ${req.body.comments || ''}
         `;
 
-        async mail(html, 'Contact', req.body.email);
+        await mail(html, 'Contact', req.body.email);
 
         res.end();
 
@@ -44,7 +44,7 @@ app.post('/api/newsletter', async(req, res, next) => {
             <b>Email: </b> ${req.body.email}   
         `;
 
-        async mail(html, 'Newsletter', req.body.email);
+        await mail(html, 'Newsletter', req.body.email);
 
         res.end();
 
