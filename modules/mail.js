@@ -18,7 +18,7 @@ const mail = (html, subject, from) => {
     // setup email data with unicode symbols
     let mailOptions = {
         from, // sender address
-        to: 'info@kali.digital', // list of receivers
+        to: 'hello@kali.digital', // list of receivers
         subject, // Subject line
         html: '<b>Hello world?</b>' // html body
     };
