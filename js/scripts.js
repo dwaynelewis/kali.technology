@@ -520,6 +520,7 @@ function initSolonick() {
                 verify: $('#verify').val()
 
             }, function(a) {
+                console.log('message sent');
                 document.getElementById("message").innerHTML = a;
                 $("#message").slideDown("slow");
                 $("#submit").removeAttr("disabled");
@@ -537,7 +538,7 @@ function initSolonick() {
         var a = $(this).attr("action");
 
         $.post(a, {
-            email: $("subscribe-email").val()
+            email: $("#subscribe-email").val()
         }, function() {
             $("#subscribe-email").val("");
         });

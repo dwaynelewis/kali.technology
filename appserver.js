@@ -18,9 +18,9 @@ app.post('/api/contact', async(req, res, next) => {
     try {
 
         const html = `
-            <b>Email: </b> ${req.body.email}
-            <b>Name: </b> ${req.body.name}
-            <b>Phone: </b> ${req.body.phone}
+            <b>Email: </b> ${req.body.email} <br />
+            <b>Name: </b> ${req.body.name} <br />
+            <b>Phone: </b> ${req.body.phone} <br />
             <b>Comments: </b> ${req.body.comments || ''}
         `;
 
@@ -41,7 +41,7 @@ app.post('/api/newsletter', async(req, res, next) => {
     try {
 
         const html = `
-            <b>Email: </b> ${req.body.email}   
+            <b>Email: </b> ${req.body.email}  
         `;
 
         await mail(html, `Newsletter from: ${req.body.email}`);
