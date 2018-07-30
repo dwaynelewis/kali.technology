@@ -21,7 +21,7 @@ const mail = (html, subject) => {
         from: process.env.SMTP_USER, // sender address
         to: 'hello@kali.digital', // list of receivers
         subject, // Subject line
-        html: '<b>Hello world?</b>' // html body
+        html // html body
     };
 
     // send mail with defined transport object
