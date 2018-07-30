@@ -3,12 +3,13 @@
 const nodemailer = require('nodemailer');
 
 
-const mail = (html, subject, from) => {
+const mail = (html, subject) => {
 
     let transporter = nodemailer.createTransport({
-        host: 'smtp.secureserver.net',
-        port: 465,
-        secure: true, // true for 465, false for other ports
+        host: 'smtp.office365.com',
+        port: 587,
+        tls: { ciphers: 'SSLv3' },
+        secure: false, // true for 465, false for other ports
         auth: {
             user: process.env.SMTP_USER, // generated ethereal user
             pass: process.env.SMTP_PASS // generated ethereal password
@@ -17,7 +18,7 @@ const mail = (html, subject, from) => {
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from, // sender address
+        from: process.env.SMTP_USER, // sender address
         to: 'hello@kali.digital', // list of receivers
         subject, // Subject line
         html: '<b>Hello world?</b>' // html body
