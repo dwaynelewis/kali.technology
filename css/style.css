@@ -1533,7 +1533,7 @@ p.interact,
     line-height: 70px;
     padding-bottom: 30px;
     position: relative;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .half-hero-wrap h4 {
