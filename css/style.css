@@ -2195,7 +2195,9 @@ section.parallax-section.parallax-sec-half-left .section-title h2:after {
 
 section.parallax-section .section-title p {
     /* color: rgba(255, 255, 255, 0.71); */
-    color: #AA3528;
+    color: whitesmoke;
+    background-color: black;
+    opacity: .6;
     max-width: 550px;
     font-size: 18px;
 }
