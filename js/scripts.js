@@ -521,7 +521,6 @@ function initSolonick() {
 
             }, function(a) {
                 console.log('message sent');
-                document.getElementById("message").innerHTML = a;
                 $("#message").slideDown("slow");
                 $("#submit").removeAttr("disabled");
                 if (null != a.match("success")) $("#contactform").slideDown("slow");
