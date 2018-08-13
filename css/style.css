@@ -2470,8 +2470,8 @@ section.parallax-section .section-title:before {
 
 .about-wrap {
     padding: 25px 30px;
-    background: #FCFCFC;
-    border: 1px solid #eee;
+    background: white;
+    border: 1px solid whitesmoke;
 }
 
 .about-wrap p {
