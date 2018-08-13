@@ -128,7 +128,7 @@ p {
     line-height: 24px;
     padding-bottom: 10px;
     font-weight: 500;
-    color: #878C9F;
+    color: black;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -2217,7 +2217,7 @@ section.parallax-section .section-title:before {
     font-weight: 600;
     font-size: 14px;
     position: relative;
-    color: #999;
+    color: black;
 }
 
 .section-title h3:before {
@@ -5598,7 +5598,7 @@ section.parallax-section .section-title:before {
     padding: 5px 0 5px 10px;
     text-align: left;
     font-weight: 800;
-    color: #666;
+    color: black;
 }
 
 .custom-inner .content-nav ul {
