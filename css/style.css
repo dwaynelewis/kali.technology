@@ -1538,7 +1538,8 @@ p.interact,
 
 .half-hero-wrap h4 {
     padding: 15px 30px;
-    background: rgba(0, 0, 0, 0.21);
+    /* background: rgba(0, 0, 0, 0.21); */
+    background-color: black;
     text-align: left;
     font-size: 16px;
     float: left;
