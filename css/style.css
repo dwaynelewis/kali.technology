@@ -408,11 +408,12 @@ blockquote p {
     left: 0;
     width: 100%;
     bottom: -1px;
-    color: rgba(255, 255, 255, 0.41);
+    /* color: rgba(255, 255, 255, 0.41); */
     font-size: 10px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: white;
 }
 
 .nav-button.cmenu .menu-button-text {
