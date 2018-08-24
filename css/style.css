@@ -1541,9 +1541,9 @@ p.interact,
     padding: 15px 30px;
     /* background: rgba(0, 0, 0, 0.21); */
     background-color: black;
-    text-align: left;
+    /* text-align: left; */
     font-size: 16px;
-    float: left;
+    /* float: left; */
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.71);
     letter-spacing: 6px;
