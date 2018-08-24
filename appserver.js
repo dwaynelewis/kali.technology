@@ -4,7 +4,7 @@ require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 
-const mail = require('./modules/mail');
+//const mail = require('./modules/mail');
 
 
 const app = express();
