@@ -409,7 +409,7 @@ blockquote p {
     width: 100%;
     bottom: -1px;
     /* color: rgba(255, 255, 255, 0.41); */
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -7249,7 +7249,7 @@ section.parallax-section .section-title:before {
         line-height: 80px;
     }
     .logo-holder img {
-        width: 30px;
+        width: 65px;
         height: auto;
     }
     .nav-button {
