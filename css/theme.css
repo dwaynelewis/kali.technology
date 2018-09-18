@@ -299,7 +299,7 @@ a,
 a:hover,
 a:visited,
 a:focus {
-    color: #777;
+    color: black;
     -webkit-transition: color .3s ease-in;
     -moz-transition: color .3s ease-in;
     -ms-transition: color .3s ease-in;
