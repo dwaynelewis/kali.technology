@@ -30,6 +30,50 @@ CSS
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '422542431545713');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=422542431545713&ev=PageView&noscript=1"
+      /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124432890-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-124432890-1');
+    </script>
+
+
+
 </head>
 
 <body>
@@ -84,16 +128,17 @@ CSS
                                         <a href="#about-section">About</a>
                                     </li>
                                     <li>
-                                        <a href="#feature-section">Feature</a>
+                                        <a href="#feature-section">Features</a>
                                     </li>
                                     <li>
                                         <a href="#price-section">Price</a>
                                     </li>
                                     <li>
-                                        <a href="#testimonial-section">Testimonial</a>
+                                        <a href="#testimonial-section">Testimonials</a>
                                     </li>
                                     <li>
-                                        <a href="#download-section">Download</a>
+
+                                        <a href="mailto:hello@kali.technology?Subject=Hello%20Kali" target="_top">Contact Us</a>
                                     </li>
                                 </ul>
 
@@ -115,7 +160,7 @@ CSS
                 <div class="col-md-6 banner-left">
                     <h1 class="text-uppercase">Digital Marketing Agency</h1>
                     <p>Simplifying how you promote your business online. An affordable plan that allows you to focus on the important things. </p>
-                    <a class="video-btn primary-btn" href="about-us.html">Contact Us</a>
+                    <a href="mailto:hello@kali.technology?Subject=Hello%20Kali" target="_top">Contact Us</a>
                 </div>
                 <div class="col-md-6 banner-right text-center">
                     <img class="img-fluid" src="img/screen1.png" alt="">
@@ -238,8 +283,9 @@ CSS
                     <h1>
                         An exceptionally unique experience for the business owner
                     </h1>
-                    <a class="primary-btn" href="about-us.html">Know More
-                        <span class="ti-arrow-right"></span>
+                    <!-- <a class="primary-btn" href="about-us.html">Know More -->
+                    <a href="mailto:hello@kali.technology?Subject=Learn%20More" class="primary-btn" target="_top">Learn More
+                    <span class="ti-arrow-right"></span>
                     </a>
                 </div>
                 <div class="col-lg-8">
@@ -334,7 +380,8 @@ CSS
                                     <i class="ti ti-check"></i>
                                 </li>
                             </ul>
-                            <a href="#" class="primary-btn primary-btn-w d-block mx-auto">Select Plan</a>
+                            <!-- <a href="#" class="primary-btn primary-btn-w d-block mx-auto">Select Plan</a> -->
+                            <a href="mailto:hello@kali.technology?Subject=Design%20and%20Setup" target="_top" class="primary-btn primary-btn-w d-block mx-auto">Select Plan</a>
                         </div>
                     </div>
                     <div class="single-price">
@@ -363,7 +410,8 @@ CSS
                                     <i class="ti ti-check"></i>
                                 </li>
                             </ul>
-                            <a href="#" class="primary-btn d-block mx-auto">Select Plan</a>
+                            <!-- <a href="#" class="primary-btn d-block mx-auto">Select Plan</a> -->
+                            <a href="mailto:hello@kali.technology?Subject=Marketing%20Support" target="_top" class="primary-btn d-block mx-auto">Select Plan</a>
                         </div>
                     </div>
                 </div>
@@ -605,7 +653,8 @@ CSS
                             </g>
                         </svg>
                     </a>
-                    <a href="#" class="primary-btn">
+                    <!-- <a href="#" class="primary-btn"> -->
+                    <a href="mailto:hello@kali.technology?Subject=Marketing%20Support" target="_top" class="primary-btn">
                         <span>Email Us</span>
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 30 30" style="fill:#fff;">
                             <!-- <path d="M25.565,9.785c-0.123,0.077-3.051,1.702-3.051,5.305c0.138,4.109,3.695,5.55,3.756,5.55 c-0.061,0.077-0.537,1.963-1.947,3.94C23.204,26.283,21.962,28,20.076,28c-1.794,0-2.438-1.135-4.508-1.135 c-2.223,0-2.852,1.135-4.554,1.135c-1.886,0-3.22-1.809-4.4-3.496c-1.533-2.208-2.836-5.673-2.882-9 c-0.031-1.763,0.307-3.496,1.165-4.968c1.211-2.055,3.373-3.45,5.734-3.496c1.809-0.061,3.419,1.242,4.523,1.242 c1.058,0,3.036-1.242,5.274-1.242C21.394,7.041,23.97,7.332,25.565,9.785z M15.001,6.688c-0.322-1.61,0.567-3.22,1.395-4.247 c1.058-1.242,2.729-2.085,4.17-2.085c0.092,1.61-0.491,3.189-1.533,4.339C18.098,5.937,16.488,6.872,15.001,6.688z"></path> -->
