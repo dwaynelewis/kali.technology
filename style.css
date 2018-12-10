@@ -655,7 +655,7 @@ span.t__header__left {
 .nav-menu>li>a {
     height: 78px;
     padding: 30px 0;
-    color: #ddd;
+    color: red;
 }
 
 .nav>li>a:focus,
@@ -687,7 +687,7 @@ header.sticky-header {
     padding: 0;
     z-index: 999;
     top: 0;
-    background: #222;
+    /* background: #222; */
     box-shadow: rgba(0, 0, 0, .15) 0px 1px 6px;
 }
 
