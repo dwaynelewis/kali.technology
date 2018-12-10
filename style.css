@@ -728,8 +728,8 @@ header.sticky-header .nav-menu>.focus>a {
 }
 
 .nav-toggle:before {
-    background-color: #ddd;
-    box-shadow: 0 0.5em 0 0 #ddd, 0 1em 0 0 #ddd;
+    background-color: red;
+    box-shadow: 0 0.5em 0 0 red, 0 1em 0 0 red;
 }
 
 .nav-menus-wrapper-close-button {
