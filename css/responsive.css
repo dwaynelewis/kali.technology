@@ -103,6 +103,10 @@
     .gallery-img img {
         width: 100%;
     }
+
+    .gallery-img iframe {
+        width: 100%;
+    }
     .fig__caption {
         -webkit-transform: translate(35%, -20%);
         transform: translate(35%, -20%);

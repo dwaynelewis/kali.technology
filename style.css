@@ -40,6 +40,11 @@ img {
     height: auto;
 }
 
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
 .fix {
     overflow: hidden;
 }
@@ -1210,6 +1215,9 @@ Portfolio Caption
 
 .gallery-img {
     position: relative;
+    width: 380px;
+    height: 394px;
+    overflow: hidden;
 }
 
 .grid figure {
