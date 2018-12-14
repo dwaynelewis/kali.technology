@@ -979,7 +979,7 @@ service V2
 
 .service_2 .v2_service_block i {
     font-size: 30px;
-    background: #f9bf3b;
+    background:orangered;
     color: #fff;
     height: 66px;
     line-height: 66px;
@@ -1273,7 +1273,7 @@ Portfolio Caption
 ------------------------------------------*/
 
 .load-more {
-    background: #f9bf3b;
+    background: orangered;
     color: #fff;
     width: 200px;
     height: 55px;
