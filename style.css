@@ -660,7 +660,7 @@ span.t__header__left {
 .nav-menu>li>a {
     height: 78px;
     padding: 30px 0;
-    color:black;
+    color:grey;
 }
 
 .nav>li>a:focus,
