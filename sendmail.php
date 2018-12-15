@@ -8,7 +8,7 @@ $phone = $_POST['phone'];
 $subject = $_POST['subject'];
 $msg = $_POST['message'];
 
-$to = "faridul.faisal@gmail.com";
+$to = "hello@kali.technology";
 
 $message = "<html>
 <head>
