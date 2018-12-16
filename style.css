@@ -717,7 +717,7 @@ header.sticky-header .nav-logo>img {
 header.sticky-header .nav-menu>li:hover>a,
 header.sticky-header .nav-menu>.active>a,
 header.sticky-header .nav-menu>.focus>a {
-    color: #9e1030;
+    color: red;
 }
 
 .nav-menu>li>a {
