@@ -1215,7 +1215,7 @@ Portfolio Caption
 
 .gallery-img {
     position: relative;
-    width: 380px;
+    max-width: 380px;
     height: 394px;
     overflow: hidden;
 }
