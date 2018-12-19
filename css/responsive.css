@@ -109,9 +109,10 @@
     .gallery-img iframe {
         width: 100%;
     }
+    
     .fig__caption {
-        -webkit-transform: translate(35%, -20%);
-        transform: translate(35%, -20%);
+        -webkit-transform: translate(0%, -20%);
+        transform: translate(0%, -20%);
         text-align: center;
     }
     .fig__caption h3 {
