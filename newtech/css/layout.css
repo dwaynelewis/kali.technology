@@ -625,12 +625,12 @@ Mobile style's
 	}
 	.logo{
 		position:absolute;
-		width:100px;
-		height:18px;
+		width:45px;
+		height:36px;
 		z-index:10000;
 		top:30px;
 		background:url('../images/logo-light.png') no-repeat center center;
-		background-size:36px 18px;
+		background-size:36px 26px;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
 		-o-transition :all 0.3s ease-out;
