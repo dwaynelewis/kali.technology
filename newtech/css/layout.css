@@ -968,7 +968,7 @@ xtype
 .home-link{
 	position:absolute;
 	width:100%;
-	bottom:30px;
+	bottom:10rem;
 	left:0;
 	z-index:10;
 	margin:0 auto;
