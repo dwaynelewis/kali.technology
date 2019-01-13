@@ -7,34 +7,31 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Hemera</title>
-	<meta name="keywords" content="" >
+	<title>Kratos</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
+	<meta property="og:title" content="The title for your social post entry">
+	<meta property="og:url" content="//yourdomain.com/page-url">
+	<meta property="og:description" content="Description for your link page to share in social networks. If your main description is good, use it">
+	<meta property="og:image" content="//yourdomain.com/image-name.jpg">
+	<meta property="og:type" content="website">
 
 	<!-- Mobile Specific Metas
   ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+	
+	
+	
 	<!-- CSS
   ================================================== -->
 	<link rel="stylesheet" href="css/base.css"/>
 	<link rel="stylesheet" href="css/skeleton.css"/>
 	<link rel="stylesheet" href="css/layout.css"/>
-	<link rel="stylesheet" href="css/settings.css" />
-	<link rel="stylesheet" href="css/jquery.fancybox.css" />
 	<link rel="stylesheet" href="css/font-awesome.css" />
-    <link rel="stylesheet" href="css/jquery.custombox.css">
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" href="css/ionicons.min.css"/>
 	<link rel="stylesheet" href="css/retina.css"/>
+	
 
-
-	
-	
-	
-    <!--[if lte IE 8]>
-        <script src="js/html5.js"></script>
-    <![endif]-->		
 		
 	<!-- Favicons
 	================================================== -->
@@ -42,1203 +39,210 @@
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
-</head>
-<body class="royal_loader">
-
-
 	
+	<script type="text/javascript" src="js/modernizr.custom.js"></script> 
+	
+	
+</head>
+<body class="royal_preloader">	
+	
+	<div id="royal_preloader"></div>
+
+	<svg class="hidden">
+		<symbol id="shape" viewBox="0 0 200 100">
+			<title>shape</title>
+			<path d="M 6.144,74.1 C 20.4,107.4 70.13,94.33 94.22,95.74 121.3,97.41 130.8,101.1 154.7,99.38 178.6,97.72 201.9,78.95 199.4,46.86 197.1,14.96 174.9,4.781 161.4,1.827 147.9,-1.128 119.8,8.284 105.6,8.766 85.34,9.449 81.91,7.628 51.08,2.334 17.26,-3.482 -8.105,40.84 6.144,74.1 Z" />
+		</symbol>
+	</svg>
+	
+	<!-- MENU
+    ================================================== -->	
+
+		<nav id="menu-wrap" class="menu-back cbp-af-header">
+			<div class="menu">
+				<a href="index.html" ><div class="logo"></div></a>
+				<ul>
+					<li>
+						<a class="shadow-hover curent-shadow" href="#" >Work</a>
+						<ul>
+							<li><a class="curent-multi-page" href="index.html">On-Scroll Back Shapes</a></li>
+							<li><a href="index-1.html">Title Follow Mouse</a></li>
+							<li><a href="index-2.html">Stack Motion Effect</a></li>
+							<li><a href="index-3.html">Hero Letter Effect</a></li>
+							<li><a href="index-4.html">Back On Mouse Hover</a></li>
+							<li><a href="index-5.html">Hero Fullscreen Slider</a></li>
+							<li><a href="index-6.html">Parallax Back Effect</a></li>
+							<li><a href="index-7.html">Hero Video Player</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="shadow-hover" href="about.html">About</a>
+					</li>
+					<li>
+						<a class="shadow-hover" href="#">Journal</a>
+						<ul>
+							<li><a href="blog.html">Journal</a></li>
+							<li><a href="post.html">Single Post</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="shadow-hover" href="contact.html">Contact</a>
+					</li>
+					<li>
+						<a class="shadow-hover" href="#">Buy <span>$20</span></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	
+		
 	<!-- Primary Page Layout
 	================================================== -->
 
-	
-
-	<div id="menu-wrap">
-		<ul class="slimmenu">
-			<li> 
-				<a href="javascript:goTo('home');">home</a>
-			</li>
-			<li>
-				<a href="javascript:goTo('about');">about</a>
-			</li>
-			<li> 
-				<a href="javascript:goTo('services');">services</a>
-			</li>
-			<li>
-				<a href="javascript:goTo('folio');">portfolio</a>
-			</li>
-			<li>
-				<a href="javascript:goTo('contact');">contact</a>
-			</li>
-			<li>
-				<a href="javascript:goTo('blog');">blog</a>
-			</li>
-		</ul>
-	</div>	
-	<div class="logo"></div>
-
-
-	
-	
-	
-	
-	<section id="content">
-	
-		<article id="home" class="active"> 
-
-			<div class="big-text">
-				<ul class="flippy">
-					<li>we are <span>Hemera</span></li>
-					<li>BORN INTO <span>CREATIVITY</span></li>
-					<li>FOCUSED ON <span>STRATEGY</span></li>
-				</ul>
-			</div>
-			
-			<div class="just_pattern"></div>
-				
-			<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster="images/1.jpg"> 
-				<source src="videos/video.mp4" type="video/mp4"> 
-				<source src="videos/video.webm" type="video/webm"> 
-				<source src="videos/video.ogg" type="video/ogg">
-			</video>
-			
-			<div class="social-side">
-				<div class="icon-side"><a href="#">&#xf099;</a></div>
-				<div class="icon-side"><a href="#">&#xf0e1;</a></div>	
-			</div> 
-		
-			<div class="small-text1"><div class="cl-effect-5"><a href="javascript:goTo('folio');"><span data-hover="portfolio">portfolio</span></a> <a href="javascript:goTo('contact');"><span data-hover="contact">contact</span></a></div></div>					
-				
-		</article>
-
-
-
-		
-		<article id="about" class="off"> 
+	<div class="section-block full-height background-color-blue">
+		<div class="home-text fade-elements">
 			<div class="container">
-				<div class="sixteen columns"> 
-					<h1 id="headline">About Us</h1>
-				</div>
-				<div class="sixteen columns"> 
-					<div class="sep"></div> 
-				</div>
-				<div class="sixteen columns"> 
-					<p class="subhead">We're a close team of creatives, designers & developers who work together to create beautiful, engaging digital experiences. We take pride in delivering only the best.</p> 
-				</div>
-			</div>
-			<div class="about-img-wrap">
-				<div class="container">
-					<div class="sixteen columns">
-						<img src="images/aboutcor.png" alt=""/>	
-					</div> 
+				<div class="twelve columns">
+					<h1 class="cd-headline letters type">I'm <span class="cross-out">not</span> your <span class="cross-out">average</span><br>web 
+						<span class="cd-words-wrapper waiting">
+							<b class="is-visible">designer</b>
+							<b>developer</b>
+						</span>
+					</h1>
 				</div>
 			</div>
-			<div class="about-img-background">
-				<div class="white-cover"></div>
-				<div class="container z-index-about">
-					<div class="sixteen columns">
-						<h3>OUR history</h3>
-					</div> 
-					<div class="sixteen columns"> 
-						<div class="sep1"></div> 
-					</div>
-					<div class="sixteen columns">
-						<div id="sync1" class="owl-carousel">
-							<div class="item" >
-								<h6>SED UT PERSPICIATIS</h6>
-								<p>There are many injected variations of passages of Lorem Ipsum available, but the an majority have suffered alteration in some injected form, by injected humour, or apply randomised words which don't look even slightly believable.</p>
-								<a class="fancybox-effects-d" href="images/gallery/3.gif" title="">
-									<div class="circle-fency" >
-										<img src="images/about1.jpg" alt=""/>
-									</div>
-								</a>
-								<a class="fancybox-effects-d" href="images/gallery/3.gif" title="">
-									<div class="circle-fency1" >
-										<img src="images/about2.jpg" alt=""/>
-									</div>
-								</a>
-								<a class="fancybox-effects-d" href="images/gallery/3.gif" title="">
-									<div class="circle-fency2" >
-										<img src="images/about3.jpg" alt=""/>
-									</div>
-								</a>								
-							</div>
-							<div class="item" >
-								<h6>SED UT PERSPICIATIS</h6>
-								<p>There are many injected variations of passages of Lorem Ipsum available, but the an majority have suffered alteration in some injected form, by injected humour, or apply randomised words which don't look even slightly believable.</p>
-								<a class="fancybox-effects-d" href="images/gallery/3.gif" title="">
-									<div class="circle-fency" >
-										<img src="images/about1.jpg" alt=""/>
-									</div>
-								</a>							
-							</div>
-							<div class="item" >
-								<h6>SED UT PERSPICIATIS</h6>
-								<p>There are many injected variations of passages of Lorem Ipsum available, but the an majority have suffered alteration in some injected form, by injected humour, or apply randomised words which don't look even slightly believable.</p>
-								<a class="fancybox-effects-d" href="images/gallery/3.gif" title="">
-									<div class="circle-fency" >
-										<img src="images/about1.jpg" alt=""/>
-									</div>
-								</a>
-								<a class="fancybox-effects-d" href="images/gallery/3.gif" title="">
-									<div class="circle-fency1" >
-										<img src="images/about2.jpg" alt=""/>
-									</div>
-								</a>
-								<a class="fancybox-effects-d" href="images/gallery/3.gif" title="">
-									<div class="circle-fency2" >
-										<img src="images/about3.jpg" alt=""/>
-									</div>
-								</a>							
-							</div>
-							<div class="item" >
-								<h6>SED UT PERSPICIATIS</h6>
-								<p>There are many injected variations of passages of Lorem Ipsum available, but the an majority have suffered alteration in some injected form, by injected humour, or apply randomised words which don't look even slightly believable.</p>
-								<a class="fancybox-effects-d" href="images/gallery/3.gif" title="">
-									<div class="circle-fency" >
-										<img src="images/about1.jpg" alt=""/>
-									</div>
-								</a>							
-							</div>
-						</div>
-
-						<div id="sync2" class="owl-carousel">
-							<div class="item" ><p><span>year 2014</span></p></div>
-							<div class="item" ><p><span>year 2013</span></p></div>
-							<div class="item" ><p><span>year 2012</span></p></div>
-							<div class="item" ><p><span>year 2011</span></p></div>
-						</div>					
-					</div>
-				</div>
-			</div>				
-			<div id="skills">
-				<div class="container">
-					<div class="sixteen columns"> 
-						<h3>OUR SKILLS</h3>
-					</div>
-					<div class="sixteen columns"> 
-						<div class="sep1"></div> 
-					</div>
-					<div class="clear"></div>
-					<div class="eight columns"> 
-        				<ul class="skill">
-        					<li><span class="bar bar-prc1"></span><p>Css 90%</p></li>
-        					<li><span class="bar bar-prc2"></span><p>jQuery 85%</p></li>
-        					<li><span class="bar bar-prc3"></span><p>Wordpress 80%</p></li>
-        				</ul>
-					</div>
-					<div class="eight columns"> 
-        				<ul class="skill">
-        					<li><span class="bar bar-prc4"></span><p>Graphic Design 68%</p></li>
-        					<li><span class="bar bar-prc5"></span><p>Html 96%</p></li>
-        					<li><span class="bar bar-prc6"></span><p>MoTools 93%</p></li>
-        				</ul>
-					</div>
-					<div class="clear"></div>
-				</div>	
-			</div>
-			<div id="team">
-				<div class="container">
-					<div class="sixteen columns"> 
-						<h3>Meet The Team</h3>
-					</div>
-					<div class="sixteen columns"> 
-						<div class="sep1"></div> 
-					</div>
-				</div>
-				<div class="team-wrapper">
-					<div class="team-wrap">
-						<div class="team-mask"></div> 
-						<div class="arrow-down"></div>
-						<div class="team-small-img image-team1"></div>
-						<h6>JAMES BEAN</h6>
-						<img src="images/team1.jpg" alt=""/>
-						<div class="social-team">
-							<ul class="team-social">
-								<li class="icon-team"><a href="#">&#xf099;</a></li>
-								<li class="icon-team"><a href="#">&#xf09a;</a></li>
-							</ul>	
-						</div>
-					</div>
-					<div class="team-wrap"> 
-						<div class="team-mask"></div>
-						<div class="arrow-down"></div>
-						<div class="team-small-img image-team2"></div>
-						<h6>ISABELLA MORO</h6>
-						<img src="images/team2.jpg" alt=""/>
-						<div class="social-team">
-							<ul class="team-social">
-								<li class="icon-team"><a href="#">&#xf099;</a></li>
-								<li class="icon-team"><a href="#">&#xf09b;</a></li>
-								<li class="icon-team"><a href="#">&#xf0d5;</a></li>
-							</ul>	
-						</div>
-					</div>
-					<div class="team-wrap"> 
-						<div class="team-mask"></div>
-						<div class="arrow-down"></div>
-						<div class="team-small-img image-team3"></div>
-						<h6>DAVID IVE</h6>
-						<img src="images/team3.jpg" alt=""/>
-						<div class="social-team">
-							<ul class="team-social">
-								<li class="icon-team"><a href="#">&#xf09a;</a></li>
-								<li class="icon-team"><a href="#">&#xf09b;</a></li>
-							</ul>	
-						</div>
-					</div>
-					<div class="team-wrap"> 
-						<div class="team-mask"></div>
-						<div class="arrow-down"></div>
-						<div class="team-small-img image-team4"></div>
-						<h6>MARIA BEAN</h6>
-						<img src="images/team4.jpg" alt=""/>
-						<div class="social-team">
-							<ul class="team-social">
-								<li class="icon-team"><a href="#">&#xf099;</a></li>
-								<li class="icon-team"><a href="#">&#xf09a;</a></li>
-								<li class="icon-team"><a href="#">&#xf0d5;</a></li>
-							</ul>	
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="clients">
-				<div class="container">
-					<div class="clients-wrap">
-						<ul class="slider4"> 
-							<li>
-								<div class="four columns">
-									<img src="images/logo/4.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/1.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/3.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/2.png" alt=""/>	
-								</div>
-							</li> 
-							<li>
-								<div class="four columns">
-									<img src="images/logo/3.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/2.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/1.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/4.png" alt=""/>	
-								</div>
-							</li>
-						</ul> 
-					</div>
-				</div>				
-			</div>
-			<div class="footer">
-				<div class="container">
-					<div class="sixteen columns"> 
-						<p><span>© Hemera - a HTML 5 template with serious impact. Created by</span> IG Design</p>
-					</div>
-				</div>	
-			</div>
-		</article>
-
-
-
-		
-		<article id="services" class="off"> 
+		</div>
+						
+		<div class="home-link fade-elements">
 			<div class="container">
-				<div class="sixteen columns"> 
-					<h1 id="headline1">Services</h1>
+				<div class="twelve columns">
+					<a href="#top-scroll" data-gal="m_PageScroll2id" data-ps2id-offset="78"><div class="link-down tipped" data-title="scroll down"  data-tipper-options='{"direction":"top","follow":"true","margin":25}'></div></a>	
 				</div>
-				<div class="sixteen columns"> 
-					<div class="sep"></div> 
-				</div>
-				<div class="sixteen columns"> 
-					<p class="subhead">We tackle business problems with intelligence. We use cutting-edge tech and cutting-edge thinking to bring brands to life online and direct consumer behaviour.</p> 
-				</div>
-			</div>
-			<div id="services-wrapper">
-				<div class="container">
-							<div class="four columns"> 
-								<div class="services-wrap">
-									<img src="images/icon1.png" alt=""/> 
-									<h6>Responsive Design</h6>
-									<p>Class aptent taciti sociosqu ad litora torquent.</p>
-									<a href="#modal" class="list-group-item" id="fall"><p>more</p></a>
-								</div>
-							</div>
-							<div class="four columns"> 
-								<div class="services-wrap">
-									<img src="images/icon2.png" alt=""/> 
-									<h6>Video Marketing</h6>
-									<p>Class aptent taciti sociosqu ad litora torquent.</p>
-									<a href="#modal1" class="list-group-item" id="slide"><p>more</p></a>
-								</div>
-							</div>
-							<div class="four columns"> 
-								<div class="services-wrap">
-									<img src="images/icon3.png" alt=""/>   
-									<h6>Search Engine</h6>
-									<p>Class aptent taciti sociosqu ad litora torquent.</p>
-									<a href="#modal2" class="list-group-item" id="newspaper"><p>more</p></a>
-								</div>
-							</div>
-							<div class="four columns"> 
-								<div class="services-wrap">
-									<img src="images/icon4.png" alt=""/>   
-									<h6>Monitoring</h6>
-									<p>Class aptent taciti sociosqu ad litora torquent.</p>
-									<a href="#modal3" class="list-group-item" id="sidefall"><p>more</p></a>
-								</div>
-							</div>
-				</div>
-			</div>
-			<div id="step-by-step">
-				<div id="sync3" class="owl-carousel">
-					<div class="item background1" >
-						<div class="white-cover"></div>		
-						<div class="container z-index-services">
-							<div class="sixteen columns">
-								<h3>01 IDEA</h3>
-							</div>
-							<div class="sixteen columns"> 
-								<div class="sep1"></div> 
-							</div>
-							<div class="sixteen columns">
-								<div class="wrap-process">
-									<div class="icon-process">&#xf0eb;</div>
-								</div>
-								<div class="wrapper-process">
-									<div class="arrow-up"></div>
-									<p>There are many injected variations of passages of Lorem Ipsum available, but the an majority have suffered alteration in some injected form, by injected humour, or apply randomised words which don't look even slightly believable.</p>
-								</div>
-							</div>
-						</div>							
-					</div>
-					<div class="item background2" >	
-						<div class="white-cover"></div>	
-						<div class="container z-index-services">
-							<div class="sixteen columns">
-								<h3>02 DESIGN</h3>
-							</div>
-							<div class="sixteen columns"> 
-								<div class="sep1"></div> 
-							</div>
-							<div class="sixteen columns">
-								<div class="wrap-process">
-									<div class="icon-process">&#xf06e;</div>
-								</div>
-								<div class="wrapper-process">
-									<div class="arrow-up"></div>
-									<p>There are many injected variations of passages of Lorem Ipsum available, but the an majority have suffered alteration in some injected form, by injected humour, or apply randomised words which don't look even slightly believable.</p>
-								</div>
-							</div>
-						</div>							
-					</div>
-					<div class="item background3" >
-						<div class="white-cover"></div>		
-						<div class="container z-index-services">
-							<div class="sixteen columns">
-								<h3>03 DEVELOP</h3>
-							</div>
-							<div class="sixteen columns"> 
-								<div class="sep1"></div> 
-							</div>
-							<div class="sixteen columns">
-								<div class="wrap-process">
-									<div class="icon-process">&#xf085;</div>
-								</div>
-								<div class="wrapper-process">
-									<div class="arrow-up"></div>
-									<p>There are many injected variations of passages of Lorem Ipsum available, but the an majority have suffered alteration in some injected form, by injected humour, or apply randomised words which don't look even slightly believable.</p>
-								</div>
-							</div>
-						</div>							
-					</div>
-					<div class="item background4" >	
-						<div class="white-cover"></div>		
-						<div class="container z-index-services">
-							<div class="sixteen columns">
-								<h3>04 TEST</h3>
-							</div>
-							<div class="sixteen columns"> 
-								<div class="sep1"></div> 
-							</div>
-							<div class="sixteen columns">
-								<div class="wrap-process">
-									<div class="icon-process">&#xf0c1;</div>
-								</div>
-								<div class="wrapper-process">
-									<div class="arrow-up"></div>
-									<p>There are many injected variations of passages of Lorem Ipsum available, but the an majority have suffered alteration in some injected form, by injected humour, or apply randomised words which don't look even slightly believable.</p>
-								</div>
-							</div>
-						</div>						
-					</div>
-				</div>
-
-				<div id="sync4" class="owl-carousel">
-					<div class="item" ></div>
-					<div class="item" ></div>
-					<div class="item" ></div>
-					<div class="item" ></div>
-				</div>	
-			</div>
-			<div id="plans">	
-				<div class="container">
-					<div class="sixteen columns">
-						<h3>our plans</h3>
-					</div>
-					<div class="sixteen columns"> 
-						<div class="sep1"></div> 
-					</div>
-				</div>
-				<div class="container">
-					<div class="one-third column">
-						<div class="plans-offer">
-							<h3>$9.99<span> – month</span></h3>
-							<h6>Standard</h6>
-							<p><strong>24/7</strong> TECH SUPPORT</p>
-							<p><strong>15</strong> PROJECTS</p>
-							<p><strong>5GB</strong> STORAGE</p>
-							<p>UNLIMITED USERS</p>
-							<div class="cl-effect-5"><a href="#"><span data-hover="sing up">sing up</span></a></div>
-						</div>
-					</div>
-					<div class="one-third column">
-						<div class="plans-offer-gold">
-							<h3>$17.99<span> – month</span></h3>
-							<h6>Gold</h6>
-							<p><strong>24/7</strong> TECH SUPPORT</p>
-							<p><strong>25</strong> PROJECTS</p>
-							<p><strong>15GB</strong> STORAGE</p>
-							<p>UNLIMITED USERS</p>
-							<div class="cl-effect-5"><a href="#"><span data-hover="sing up">sing up</span></a></div>
-						</div>
-					</div>
-					<div class="one-third column">
-						<div class="plans-offer">
-							<h3>$34.99<span> – month</span></h3>
-							<h6>Premium</h6>
-							<p><strong>24/7</strong> TECH SUPPORT</p>
-							<p><strong>100</strong> PROJECTS</p>
-							<p><strong>50GB</strong> STORAGE</p>
-							<p>UNLIMITED USERS</p>
-							<div class="cl-effect-5"><a href="#"><span data-hover="sing up">sing up</span></a></div>
-						</div>
-					</div>
-				</div>	
-			</div>	
-			<div id="testimonials">
-				<div class="container">
-					<div class="sixteen columns"> 
-						<h3>Testimonials</h3>
-					</div>
-					<div class="sixteen columns"> 
-						<div class="sep1"></div> 
-					</div>
-					<div class="sixteen columns"> 
-						<ul class="slider3"> 
-							<li>
-								<div class="test">
-									<div class="icon-test">&#xf10e;</div> 
-									<h6>Pellentesque egestas ornare sagittis. Sed augue lorem, dignissim eget bibendum vitae, scelerisque eget justo. Duis tincidunt erat quam. Etiam placerat sapien elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</h6>			
-									<p><span>John Doe, Utcrayons General director</span></p>
-								</div> 
-							</li> 
-							<li>
-								<div class="test">
-									<div class="icon-test">&#xf10e;</div> 
-									<h6>Dignissim eget bibendum vitae, scelerisque eget justo. Duis tincidunt erat quam. Etiam placerat sapien elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque egestas ornare sagittis.</h6>			
-									<p><span>Caroline Smith, Imperio General director</span></p>
-								</div> 
-							</li>
-						</ul> 
-					</div>
-				</div>	
-			</div>		
-			<div class="clients">
-				<div class="container">
-					<div class="clients-wrap">
-						<ul class="slider6"> 
-							<li>
-								<div class="four columns">
-									<img src="images/logo/4.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/1.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/3.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/2.png" alt=""/>	
-								</div>
-							</li> 
-							<li>
-								<div class="four columns">
-									<img src="images/logo/3.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/2.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/1.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/4.png" alt=""/>	
-								</div>
-							</li>
-						</ul> 
-					</div>
-				</div>				
-			</div>
-			<div class="footer">
-				<div class="container">
-					<div class="sixteen columns"> 
-						<p><span>© Hemera - a HTML 5 template with serious impact. Created by</span> IG Design</p>
-					</div>
-				</div>	
-			</div>
-		</article>
-
+			</div>						
+		</div>
+	</div>
 		
-		<article id="folio" class="off">
-			<div class="container">
-				<div class="sixteen columns"> 
-					<h1 id="headline2">Portfolio</h1>
-				</div>
-				<div class="sixteen columns"> 
-					<div class="sep"></div> 
-				</div>
+	<div class="section-block background-color-blue" id="top-scroll">
+		<div class="morph-wrap">
+			<svg class="morph" width="1400" height="770" viewBox="0 0 1400 770">
+				<path d="M 262.9,252.2 C 210.1,338.2 212.6,487.6 288.8,553.9 372.2,626.5 511.2,517.8 620.3,536.3 750.6,558.4 860.3,723 987.3,686.5 1089,657.3 1168,534.7 1173,429.2 1178,313.7 1096,189.1 995.1,130.7 852.1,47.07 658.8,78.95 498.1,119.2 410.7,141.1 322.6,154.8 262.9,252.2 Z"/>
+			</svg>
+		</div>
+		<div class="content-wrap padding-top-bottom content--layout-1">
+			<div class="content content--layout" data-scroll-reveal="enter bottom move 60px over 0.9s after 0.1s">
+				<div class="content__mask"></div>
+				<img class="content__img" src="images/portfolio/1.jpg" alt="Some image" />
+				<h3 class="content__title">Ayuda en Acción</h3>
+				<a href="project1.html" class="content__link"><svg class="decoshape" width="100%" height="100%" preserveAspectRatio="none"><use xlink:href="#shape"></use></svg><div class="chaffle" data-lang="en">Discover</div></a>
 			</div>
-			<div class="clear"></div>
-				
-			<div class="portfolio"></div>
-
-			<div class="expander-wrap relative">
-				<div id="expander-wrap">
-					<p class="cls-btn"><a class="close">X</a></p>
-					<div class="expander-inner"></div>
+			<div class="content content--layout mobile-padding" data-scroll-reveal="enter bottom move 60px over 0.9s after 0.1s">
+				<div class="content__mask"></div>
+				<img class="content__img" src="images/portfolio/2.jpg" alt="Some image" />
+				<h3 class="content__title">Invest in Heads</h3>
+				<a href="project2.html" class="content__link"><svg class="decoshape" width="100%" height="100%" preserveAspectRatio="none"><use xlink:href="#shape"></use></svg><div class="chaffle" data-lang="en">Discover</div></a>
+			</div>
+		</div>
+		<div class="content-wrap padding-bottom content--layout-2">
+			<div class="content content--layout" data-scroll-reveal="enter bottom move 60px over 0.9s after 0.1s">
+				<div class="content__mask"></div>
+				<img class="content__img" src="images/portfolio/3.jpg" alt="Some image" />
+				<h3 class="content__title">Disrepute</h3>
+				<a href="project3.html" class="content__link"><svg class="decoshape" width="100%" height="100%" preserveAspectRatio="none"><use xlink:href="#shape"></use></svg><div class="chaffle" data-lang="en">Discover</div></a>
+			</div>
+			<div class="content content--layout mobile-padding" data-scroll-reveal="enter bottom move 60px over 0.9s after 0.1s">
+				<div class="content__mask"></div>
+				<img class="content__img" src="images/portfolio/4.jpg" alt="Some image" />
+				<h3 class="content__title">Ottavo</h3>
+				<a href="project4.html" class="content__link"><svg class="decoshape" width="100%" height="100%" preserveAspectRatio="none"><use xlink:href="#shape"></use></svg><div class="chaffle" data-lang="en">Discover</div></a>
+			</div>
+		</div>
+		<div class="content-wrap padding-bottom content--layout-3">
+			<div class="content content--layout" data-scroll-reveal="enter bottom move 60px over 0.9s after 0.1s">
+				<div class="content__mask"></div>
+				<img class="content__img" src="images/portfolio/5.jpg" alt="Some image" />
+				<h3 class="content__title">Lyft | First Round</h3>
+				<a href="project5.html" class="content__link"><svg class="decoshape" width="100%" height="100%" preserveAspectRatio="none"><use xlink:href="#shape"></use></svg><div class="chaffle" data-lang="en">Discover</div></a>
+			</div>
+			<div class="content content--layout mobile-padding" data-scroll-reveal="enter bottom move 60px over 0.9s after 0.1s">
+				<div class="content__mask"></div>
+				<img class="content__img" src="images/portfolio/6.jpg" alt="Some image" />
+				<h3 class="content__title">SOMA</h3>
+				<a href="project6.html" class="content__link"><svg class="decoshape" width="100%" height="100%" preserveAspectRatio="none"><use xlink:href="#shape"></use></svg><div class="chaffle" data-lang="en">Discover</div></a>
+			</div>
+		</div>
+		<div class="content-wrap padding-bottom content--layout-4">
+			<div class="content content--layout" data-scroll-reveal="enter bottom move 60px over 0.9s after 0.1s">
+				<div class="content__mask"></div>
+				<img class="content__img" src="images/portfolio/7.jpg" alt="Some image" />
+				<h3 class="content__title">Covestro Lab APP</h3>
+				<a href="project7.html" class="content__link"><svg class="decoshape" width="100%" height="100%" preserveAspectRatio="none"><use xlink:href="#shape"></use></svg><div class="chaffle" data-lang="en">Discover</div></a>
+			</div>
+			<div class="content content--layout mobile-padding" data-scroll-reveal="enter bottom move 60px over 0.9s after 0.1s">
+				<div class="content__mask"></div>
+				<img class="content__img" src="images/portfolio/8.jpg" alt="Some image" />
+				<h3 class="content__title">MIMIC</h3>
+				<a href="project8.html" class="content__link"><svg class="decoshape" width="100%" height="100%" preserveAspectRatio="none"><use xlink:href="#shape"></use></svg><div class="chaffle" data-lang="en">Discover</div></a>
+			</div>
+		</div>
+		<div class="section-block padding-top-bottom content--layout-5">
+			<div class="container footer">
+				<div class="one-fifth column" data-scroll-reveal="enter bottom move 60px over 0.9s after 0.1s">
+					<p>Kratos</p>
+					<p>Web Agency</p>
+				</div>
+				<div class="one-fifth column" data-scroll-reveal="enter bottom move 60px over 0.9s after 0.1s">
+					<p>1093 Flushing Ave</p>
+					<p>Brooklyn, NY</p>
+				</div>
+				<div class="one-fifth column mail-phone" data-scroll-reveal="enter bottom move 60px over 0.9s after 0.1s">
+					<a href="tel:256454877"><p class="chaffle" data-lang="en">+(1) 256 45 48 77</p></a>
+					<a href="mailto:kratos-office@kratos.com"><p class="chaffle" data-lang="en">kratos-office@kratos.com</p></a>
+				</div>
+				<div class="two-fifths column" data-scroll-reveal="enter bottom move 60px over 0.9s after 0.1s">
+					<div class="social-footer">
+						<ul class="list-social-footer">
+							<li class="icon-footer tipped" data-title="twitter"  data-tipper-options='{"direction":"top","follow":"true","margin":25}'>
+								<a href="#"><span class="fa-twitter"></span></a>
+							</li>
+							<li class="icon-footer tipped" data-title="github"  data-tipper-options='{"direction":"top","follow":"true","margin":25}'>
+								<a href="#"><span class="fa-github"></span></a>
+							</li>
+							<li class="icon-footer tipped" data-title="pinterest"  data-tipper-options='{"direction":"top","follow":"true","margin":25}'>
+								<a href="#"><span class="fa-pinterest"></span></a>
+							</li>
+							<li class="icon-footer tipped" data-title="facebook"  data-tipper-options='{"direction":"top","follow":"true","margin":25}'>
+								<a href="#"><span class="fa-facebook"></span></a>
+							</li>
+						</ul>	
+					</div>
 				</div>
 			</div>	
-				
-			<div class="clear"></div>
-			<div class="container">
-				<div class="sixteen columns">
-						<div id="portfolio-filter">
-							<ul id="filter">
-								<li><a href="#" class="current" data-filter="*" title="">Show all</a></li>
-								<li><a href="#" data-filter=".photography" title="">photography</a></li>
-								<li><a href="#" data-filter=".illustration" title="">illustration</a></li>
-								<li><a href="#" data-filter=".motion-graphics" title="">motion graphics</a></li>
-								<li><a href="#" data-filter=".web-design" title="">web design</a></li>
-							</ul>
-						</div>
-				</div>
-			</div> 
-			<div class="clear"></div>
-			<div class="container">
-			<div class="all-works">
-				<div class="one-third column one-work photography web-design illustration">	
-					<a class="expander" href="project1.html" title="">
-						<div class="work-text"><h6>View Project</h6></div>	
-						<img src="images/gallery/1.jpg" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/1.jpg" title=""><div class="right-zoom">&#xf002;</div></a>		
-				</div>
-				<div class="one-third column one-work illustration">
-					<a class="expander" href="project2.html" title="">	
-						<div class="work-text"><h6>View Project</h6></div>	
-						<img src="images/gallery/2.jpg" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/2.jpg" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work motion-graphics">
-					<a class="expander" href="project3.html" title="">
-						<div class="work-text"><h6>View Project</h6></div>		
-						<img src="images/gallery/3.gif" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/3.gif" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work photography">
-					<a class="expander" href="project1.html" title="">	
-						<div class="work-text"><h6>View Project</h6></div>	
-						<img src="images/gallery/4.jpg" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/4.jpg" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work illustration">
-					<a class="expander" href="project2.html" title="">
-						<div class="work-text"><h6>View Project</h6></div>			
-						<img src="images/gallery/5.jpg" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/5.jpg" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work motion-graphics illustration">
-					<a class="expander" href="project3.html" title="">
-						<div class="work-text"><h6>View Project</h6></div>			
-						<img src="images/gallery/6.gif" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/6.gif" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work photography">
-					<a class="expander" href="project1.html" title="">
-						<div class="work-text"><h6>View Project</h6></div>			
-						<img src="images/gallery/7.jpg" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/7.jpg" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work web-design">
-					<a class="expander" href="project2.html" title="">
-						<div class="work-text"><h6>View Project</h6></div>		
-						<img src="images/gallery/8.jpg" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/8.jpg" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work illustration photography">
-					<a class="expander" href="project3.html" title="">
-						<div class="work-text"><h6>View Project</h6></div>		
-						<img src="images/gallery/9.jpg" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/9.jpg" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work motion-graphics web-design">
-					<a class="expander" href="project1.html" title="">
-						<div class="work-text"><h6>View Project</h6></div>		
-						<img src="images/gallery/10.jpg" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/10.jpg" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work photography motion-graphics">
-					<a class="expander" href="project2.html" title="">
-						<div class="work-text"><h6>View Project</h6></div>		
-						<img src="images/gallery/11.gif" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/11.gif" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work motion-graphics">
-					<a class="expander" href="project3.html" title="">
-						<div class="work-text"><h6>View Project</h6></div>		
-						<img src="images/gallery/12.jpg" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/12.jpg" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work photography">
-					<a class="expander" href="project1.html" title="">	
-						<div class="work-text"><h6>View Project</h6></div>	
-						<img src="images/gallery/13.jpg" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/13.jpg" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work illustration">
-					<a class="expander" href="project2.html" title="">
-						<div class="work-text"><h6>View Project</h6></div>			
-						<img src="images/gallery/14.jpg" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/14.jpg" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work web-design">
-					<a class="expander" href="project3.html" title="">
-						<div class="work-text"><h6>View Project</h6></div>		
-						<img src="images/gallery/15.jpg" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/15.jpg" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-				<div class="one-third column one-work photography">
-					<a class="expander" href="project1.html" title="">	
-						<div class="work-text"><h6>View Project</h6></div>	
-						<img src="images/gallery/16.jpg" alt=""/>
-					</a>
-					<p>Project Name</p>	
-					<a class="fancybox-effects-d" href="images/gallery/16.jpg" title=""><div class="right-zoom">&#xf002;</div></a>	
-				</div>
-			</div>
-			</div>
-			<div class="clients">
-				<div class="container">
-					<div class="clients-wrap">
-						<ul class="slider7"> 
-							<li>
-								<div class="four columns">
-									<img src="images/logo/4.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/1.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/3.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/2.png" alt=""/>	
-								</div>
-							</li> 
-							<li>
-								<div class="four columns">
-									<img src="images/logo/3.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/2.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/1.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/4.png" alt=""/>	
-								</div>
-							</li>
-						</ul> 
-					</div>
-				</div>				
-			</div>
-			<div class="footer">
-				<div class="container">
-					<div class="sixteen columns"> 
-						<p><span>© Hemera - a HTML 5 template with serious impact. Created by</span> IG Design</p>
-					</div>
-				</div>	
-			</div>
-		</article>
-
-
+		</div>
+		<div class="content--related"></div>
+	</div>
+		
 
 		
-		<article id="contact" class="off"> 
-			<div class="container">
-				<div class="sixteen columns"> 
-					<h1 id="headline3">Contact</h1>
-				</div>
-				<div class="sixteen columns"> 
-					<div class="sep"></div> 
-				</div>
-				<div class="sixteen columns"> 
-					<p class="subhead">WE CREATE BEST OPPORTUNITIES FOR YOUR BUSINESS.</p> 
-				</div>
-			</div>
-			<div id="contact-mes">
-				<div class="container">
-						<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
-					<div class="eight columns">
-							<label for="name">Name: * 
-								<span class="error" id="err-name">please enter name</span>
-							</label>
-							<input name="name" id="name" type="text" />
-					</div>
-					<div class="eight columns">
-							<label for="email">E-Mail: * 
-								<span class="error" id="err-email">please enter e-mail</span>
-								<span class="error" id="err-emailvld">e-mail is not a valid format</span>
-							</label>
-							<input name="email" id="email" type="text" />
-					</div>
-					<div class="sixteen columns">
-							<label for="message">Message:</label>
-							<textarea name="message" id="message"></textarea>
-							<button class="send_message" id="send">Submit</button>
-							<div class="error" id="err-form">There was a problem validating the form please check!</div>
-							<div class="error" id="err-timedout">The connection to the server timed out!</div>
-							<div class="error" id="err-state"></div>
-					</div>
-						</form>
-						<div id="ajaxsuccess">Successfully sent!!</div>		
-				</div>
-			</div>
-			<div class="clear"></div>
-			<div id="map"></div>
-			<div id="contact-details">
-				<div class="container">
-					<div class="sixteen columns"> 
-						<h3>Contact Details</h3>
-					</div>
-					<div class="sixteen columns"> 
-						<div class="sep1"></div> 
-					</div>
-					<div class="one-third column"> 
-						<div class="icon-contact">&#xf015;</div>
-						<div class="detail"> 
-							<p>100 Biscayne Blvd. (North) 21st Floor New World Tower Miami, Florida 33148</p>
-						</div>
-					</div>	
-					<div class="one-third column">
-						<div class="icon-contact">&#xf095;</div> 
-						<div class="detail"> 
-							<p>(305) 555-4446</p>
-							<p>(305) 555-4457</p>
-						</div>
-					</div>	
-					<div class="one-third column"> 
-						<div class="icon-contact">&#xf003;</div>
-						<div class="detail">
-							<p>general: office@yoursite.com</p>
-							<p>support: support@example.com</p> 
-						</div>
-					</div>	
-				</div>
-			</div>
-			<div class="clients">
-				<div class="container">
-					<div class="clients-wrap">
-						<ul class="slider8"> 
-							<li>
-								<div class="four columns">
-									<img src="images/logo/4.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/1.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/3.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/2.png" alt=""/>	
-								</div>
-							</li> 
-							<li>
-								<div class="four columns">
-									<img src="images/logo/3.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/2.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/1.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/4.png" alt=""/>	
-								</div>
-							</li>
-						</ul> 
-					</div>
-				</div>				
-			</div>
-			<div class="footer">
-				<div class="container">
-					<div class="sixteen columns"> 
-						<p><span>© Hemera - a HTML 5 template with serious impact. Created by</span> IG Design</p>
-					</div>
-				</div>	
-			</div>	
-		</article>
-
-		<article id="blog" class="off"> 
-			<div class="container">
-				<div class="sixteen columns"> 
-					<h1 id="headline4">Blog</h1>
-				</div>
-				<div class="sixteen columns"> 
-					<div class="sep"></div> 
-				</div>
-			</div> 
-			<div class="blog-wrap">
-				<div class="container">
-					<div class="eight columns">	
-						<img src="images/gallery/13.jpg" alt=""/>
-					</div> 
-					<div class="eight columns">	
-						<div class="blog-date"><span>07.11.</span></div>
-						<h6>Post With Image</h6>
-						<p>Dignissim eget bibendum vitae, scelerisque eget justo. Duis tincidunt erat quam. Etiam placerat sapien elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque egestas ornare sagittis.</p>
-						<div class="blog-tag"><a href="#">image</a><a href="#">design</a></div>	
-						<div class="clear"></div> 
-						<div class="link-blog"><div class="cl-effect-5"><a href="#"><span data-hover="read more">read more</span></a></div></div>
-					</div> 
-				</div>
-			</div>
-			<div class="blog-wrap post2">
-				<div class="container">
-					<div class="eight columns">	
-						<ul class="slider5"> 
-							<li>
-								<img src="images/gallery/15.jpg" alt=""/>	
-							</li> 
-							<li>
-								<img src="images/gallery/16.jpg" alt=""/>	
-							</li>
-							<li>
-								<img src="images/gallery/17.jpg" alt=""/>	
-							</li>
-						</ul> 
-					</div> 
-					<div class="eight columns">	
-						<div class="blog-date"><span>02.11.</span></div>
-						<h6>Post With Slider</h6>
-						<p>Dignissim eget bibendum vitae, scelerisque eget justo. Duis tincidunt erat quam. Etiam placerat sapien elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque egestas ornare sagittis.</p>
-						<div class="blog-tag"><a href="#">image</a><a href="#">design</a><a href="#">slider</a></div>	
-						<div class="clear"></div> 
-						<div class="link-blog"><div class="cl-effect-5"><a href="#"><span data-hover="read more">read more</span></a></div></div>
-					</div> 
-				</div>
-			</div>
-			<div class="blog-wrap post1">
-				<div class="container">
-					<div class="eight columns">
-						<div onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'">
-							<img src="images/gallery/19.jpg" style="cursor:pointer" alt=""/>
-						</div>
-						<div id="thevideo" class="video">
-							<iframe width="940" height="529" src="http://www.youtube.com/embed/6v2L2UGZJAM?theme=light&amp;color=white"></iframe>
-						</div> 	
-					</div> 
-					<div class="eight columns">	
-						<div class="blog-date"><span>26.10.</span></div>
-						<h6>Post With Video</h6>
-						<p>Dignissim eget bibendum vitae, scelerisque eget justo. Duis tincidunt erat quam. Etiam placerat sapien elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque egestas ornare sagittis.</p>
-						<div class="blog-tag"><a href="#">video</a><a href="#">design</a><a href="#">photo</a></div>	
-						<div class="clear"></div> 
-						<div class="link-blog"><div class="cl-effect-5"><a href="#"><span data-hover="read more">read more</span></a></div></div>
-					</div> 
-				</div>
-			</div>
-			<div class="blog-wrap post2">
-				<div class="container">
-					<div class="eight columns">	 
-						<div class="media-audio">
-							<iframe src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F67943430"></iframe> 
-						</div> 
-					</div> 
-					<div class="eight columns">	
-						<div class="blog-date"><span>20.10.</span></div>
-						<h6>Post With Audio</h6>
-						<p>Dignissim eget bibendum vitae, scelerisque eget justo. Duis tincidunt erat quam. Etiam placerat sapien elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque egestas ornare sagittis.</p>
-						<div class="blog-tag"><a href="#">audio</a><a href="#">music</a></div>	
-						<div class="clear"></div> 
-						<div class="link-blog"><div class="cl-effect-5"><a href="#"><span data-hover="read more">read more</span></a></div></div>
-					</div> 
-				</div>
-			</div>
-			<div class="blog-wrap post1">
-				<div class="container">
-					<div class="eight columns">	
-						<img src="images/gallery/18.jpg" alt=""/>
-					</div> 
-					<div class="eight columns">	
-						<div class="blog-date"><span>17.10.</span></div>
-						<h6>Post With Image</h6>
-						<p>Dignissim eget bibendum vitae, scelerisque eget justo. Duis tincidunt erat quam. Etiam placerat sapien elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque egestas ornare sagittis.</p>
-						<div class="blog-tag"><a href="#">image</a><a href="#">design</a></div>	
-						<div class="clear"></div> 
-						<div class="link-blog"><div class="cl-effect-5"><a href="#"><span data-hover="read more">read more</span></a></div></div>
-					</div> 
-				</div>
-			</div>
-			<div class="clients">
-				<div class="container">
-					<div class="clients-wrap">
-						<ul class="slider9"> 
-							<li>
-								<div class="four columns">
-									<img src="images/logo/4.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/1.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/3.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/2.png" alt=""/>	
-								</div>
-							</li> 
-							<li>
-								<div class="four columns">
-									<img src="images/logo/3.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/2.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/1.png" alt=""/>	
-								</div>
-								<div class="four columns">
-									<img src="images/logo/4.png" alt=""/>	
-								</div>
-							</li>
-						</ul> 
-					</div>
-				</div>				
-			</div>
-			<div class="footer">
-				<div class="container">
-					<div class="sixteen columns"> 
-						<p><span>© Hemera - a HTML 5 template with serious impact. Created by</span> IG Design</p>
-					</div>
-				</div>	
-			</div>
-		</article>
-
-
-
-
-
-
-		
-	</section>
-	
-
-
-	
-    <div id="modal" style="display: none;" class="modal-example-content">
-		<button type="button" class="close" onclick="$.fn.custombox('close');">&times;</button>
-		<div class="container">
-			<div class="sixteen columns">
-				<div class="services-wrap">
-					<img src="images/icon1.png" alt=""/> 
-					<h6>Responsive Design</h6>
-				</div>					
-			</div>
-			<div class="sixteen columns">
-				<div class="modal-example-body">  
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-				</div>	
-			</div>
-		</div>
-    </div>	
-	
-	
-	
-	
-	
-    <div id="modal1" style="display: none;" class="modal-example-content">
-		<button type="button" class="close" onclick="$.fn.custombox('close');">&times;</button>
-		<div class="container">
-			<div class="sixteen columns">
-				<div class="services-wrap">
-					<img src="images/icon2.png" alt=""/>  
-					<h5>Video Marketing</h5>
-				</div>	
-			</div>
-			<div class="sixteen columns">
-				<div class="modal-example-body">  
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-				</div>	
-			</div>
-		</div>
-    </div>		
-	
-	
-	
-	
-    <div id="modal2" style="display: none;" class="modal-example-content">
-		<button type="button" class="close" onclick="$.fn.custombox('close');">&times;</button>
-		<div class="container">
-			<div class="sixteen columns">
-				<div class="services-wrap">
-					<img src="images/icon3.png" alt=""/> 
-					<h5>Search Engine</h5>
-				</div>	
-			</div>
-			<div class="sixteen columns">
-				<div class="modal-example-body">  
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-				</div>	
-			</div>
-		</div>
-    </div>		
-	
-	
-	
-    <div id="modal3" style="display: none;" class="modal-example-content">
-		<button type="button" class="close" onclick="$.fn.custombox('close');">&times;</button>
-		<div class="container">
-			<div class="sixteen columns">
-				<div class="services-wrap">
-					<img src="images/icon4.png" alt=""/> 
-					<h5>Monitoring</h5>
-				</div>	
-			</div>
-			<div class="sixteen columns">
-				<div class="modal-example-body">  
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-				</div>	
-			</div>
-		</div>
-    </div>		
-	
-
-
-	
-
-	
 	<!-- JAVASCRIPT
-    ================================================== -->
-<script type="text/javascript" src="js/jquery.js"></script>	 
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
-<script type="text/javascript" src="js/royal_preloader.min.js"></script>
-<script type="text/javascript">
-(function($) { "use strict";
-
-    var images = {
-        'wallpaper1':  'images/1.jpg',
-        'wallpaper2':  'images/2.jpg',
-        'wallpaper3':  'images/3.jpg',
-        'Project1':  'images/gallery/1.jpg',
-        'Project2':  'images/gallery/2.jpg',
-        'Project3':  'images/gallery/3.gif',
-        'Project4':  'images/gallery/4.jpg',
-        'Project5':  'images/gallery/5.jpg',
-        'Project6':  'images/gallery/6.gif',
-        'Project7':  'images/gallery/7.jpg',
-        'Project8':  'images/gallery/8.jpg',
-        'Project9':  'images/gallery/9.jpg',
-        'Project10':  'images/gallery/10.jpg',
-        'Project11':  'images/gallery/11.gif',
-        'Project12':  'images/gallery/12.jpg',
-        'Project13':  'images/gallery/13.jpg',
-        'Project14':  'images/gallery/14.jpg',
-        'Project15':  'images/gallery/15.jpg',
-        'Project16':  'images/gallery/16.jpg',
-        'Project17':  'images/gallery/17.jpg',
-    };
-
-            Royal_Preloader.config({
-                mode: 'number', // 'number', "text" or "logo"
-				images:     images,
-                timeout:        0,
-                showInfo:       true,
-                showPercentage: true,
-                opacity:        1,
-                background:     ['#FFFFFF']
-            });
-})(jQuery);
-</script>
-<script type="text/javascript" src="js/jquery.slimmenu.js"></script>
-<script type="text/javascript" src="js/shine.min.js"></script>
-<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
-<script type="text/javascript" src="js/flippy.js"></script>
-<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-<script type="text/javascript" src="js/jquery.easing.js"></script>
-<script type="text/javascript" src="js/jquery.custombox.js"></script>
-<script type="text/javascript" src="js/jquery.transit.min.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-<script type="text/javascript" src="js/jquery.masonry.min.js"></script>
-<script type="text/javascript" src="js/jquery.fitvids.js"></script>
-<script type="text/javascript" src="js/jquery.fancybox.js"></script>
-<script type="text/javascript" src="js/owl.carousel.js"></script>
-<script type="text/javascript" src="js/jquery.flexslider.min.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> 		
-<script type="text/javascript" src="js/gmaps.js"></script>
-<script type="text/javascript" src="js/contact.js"></script>
-<script type="text/javascript" src="js/template.js"></script>  	  
+	================================================== -->
+	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>	
+	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
+	<script type="text/javascript" src="js/retina.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.js"></script>	
+	<script type="text/javascript" src="js/header-anime.js"></script>
+	<script type="text/javascript" src="js/tipper.js"></script>
+	<script type="text/javascript" src="js/letters.js"></script> 
+	<script type="text/javascript" src="js/scrolltoid.js"></script> 
+	<script type="text/javascript" src="js/scrollReveal.js"></script>
+	<script type="text/javascript" src="js/jquery.chaffle.min.js"></script>
+	<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/anime.min.js"></script>
+	<script type="text/javascript" src="js/scrollMonitor.js"></script>
+	<script type="text/javascript" src="js/animation-home-1.js"></script> 
+	<!-- Custom JavaScript
+	================================================== -->	
+	<script type="text/javascript" src="js/custom-home-1.js"></script> 
+	
 <!-- End Document
 ================================================== -->
 </body>
