@@ -630,7 +630,7 @@ Mobile style's
 		z-index:10000;
 		top:30px;
 		background:url('../images/logo-light.png') no-repeat center center;
-		background-size:100px 18px;
+		background-size:36px 18px;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
 		-o-transition :all 0.3s ease-out;
