@@ -1002,7 +1002,7 @@ xtype
 	position:absolute;
 	width:100%;
 	height:100%;
-	background-color:#000;
+	/* background-color:#000; */
 	top:0;
 	left:0;
 	z-index:2;
