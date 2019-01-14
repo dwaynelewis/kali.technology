@@ -314,7 +314,7 @@ body.royal_preloader {
 }
 
 .cbp-af-header.cbp-af-header-shrink {
-	background: rgba(0,0,0,.93);
+	background: #363dc2;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -599,7 +599,7 @@ Mobile style's
 @media only screen and (max-width: 1199px) {
 
 	.menu-back{
-		background:#c80000;
+		background: #363dc2;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
 		-o-transition :all 0.3s ease-out;
@@ -1037,7 +1037,7 @@ xtype
 	font-size: 110px;
 	line-height: 120px;
 	color: #fff;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: white;
 	background: -webkit-linear-gradient(transparent, transparent),
              url('../images/let.jpg') repeat;
 	background: -o-linear-gradient(transparent, transparent);
@@ -1115,13 +1115,13 @@ xtype
 .home-text-freelance .link:hover{	
 	color:#fff;
 }
-.blur-effect{
+/* .blur-effect{
 	-webkit-filter: blur(5px);
 	-moz-filter: blur(5px);
 	-o-filter: blur(5px);
 	-ms-filter: blur(5px);
 	filter: blur(5px);
-}
+} */
 .home-video {
 	position:relative;
 	width:100%;
