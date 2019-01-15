@@ -18,7 +18,7 @@
 .sidebar-list-two li a:hover,
 #ajax-form button:hover,
 #cd-zoom-in, #cd-zoom-out{
-	background-color: #363dc2;
+	background-color:  #D69C2F;
 }
 .cbp-af-header.cbp-af-header-shrink .menu ul li ul li a.curent-multi-page,
 .cbp-af-header.cbp-af-header-shrink .menu ul li ul li a.curent-multi-page:hover,
@@ -52,7 +52,7 @@
 	fill: #202692;
 }
 .content .content__mask{
-	background-color: #363dc2;
+	background-color:  #D69C2F;
 }
 .morph {
 	fill: #282faf;
@@ -76,17 +76,17 @@
 	text-shadow: -9px 7px 0 #202692;
 }
 .home-video {	
-	outline: 1px double #363dc2;
+	outline: 1px double  #D69C2F;
 }
 figure.vimeo a:before, figure.youtube a:before {
-	border-left: 10px solid #363dc2;
+	border-left: 10px solid  #D69C2F;
 }
 figure.vimeo:hover a:after, figure.youtube:hover a:after {
-	background:#363dc2;
+	background: #D69C2F;
 }
 .tooltip__shape,
 .tooltip--sadoc .tooltip__shape path {
-	fill: #363dc2;
+	fill:  #D69C2F;
 }
 .tooltip--sadoc .tooltip__shape path {
 	stroke: rgba(54,61,194,.3);
@@ -97,27 +97,27 @@ figure.vimeo:hover a:after, figure.youtube:hover a:after {
 	text-shadow: -4px 3px 0 rgba(54,61,194,.3);
 }
 .post-wrapper blockquote{ 
-	border-left:3px solid #363dc2;
+	border-left:3px solid  #D69C2F;
 }
 .sidebar-search input:active,
 .sidebar-search input:focus {	
-	border-bottom:1px solid #363dc2;
+	border-bottom:1px solid  #D69C2F;
 }
 .subscribe input:active,
 .subscribe input:focus {	
-	border-bottom:1px solid #363dc2;
+	border-bottom:1px solid  #D69C2F;
 }
 .sidebar-list-one li:before{ 
-	border:1px solid #363dc2;
+	border:1px solid  #D69C2F;
 }
 .sidebar-list-two li a:hover{
-	border:2px solid #363dc2;
+	border:2px solid  #D69C2F;
 }
 #ajax-form textarea:focus,
 #ajax-form input:focus,
 #ajax-form textarea:active,
 #ajax-form input:active {	
-	border-bottom:1px solid #363dc2;
+	border-bottom:1px solid  #D69C2F;
 }
 
 
