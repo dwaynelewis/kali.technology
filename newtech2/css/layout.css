@@ -312,7 +312,7 @@ body.royal_preloader {
 }
 
 .cbp-af-header.cbp-af-header-shrink {
-	background: rgba(0,0,0,.93);
+	background:#343148;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -597,14 +597,14 @@ Mobile style's
 @media only screen and (max-width: 1199px) {
 
 	.menu-back{
-		background: rgba(0,0,0,.93);
+		background:#343148;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
 		-o-transition :all 0.3s ease-out;
 		transition : all 0.3s ease-out;
 	}
 	.cbp-af-header.cbp-af-header-shrink {
-		background: rgba(0,0,0,.93);
+		background:#343148;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
 		-o-transition :all 0.3s ease-out;
@@ -1443,7 +1443,7 @@ figure.vimeo a img, figure.youtube a img {
 }
  
 .parallax-pattern {
-	background-repeat: repat;
+	background-repeat: repeat;
 	background-attachment: fixed;
 	position: absolute;
 	top: 0; 
