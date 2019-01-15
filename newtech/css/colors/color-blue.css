@@ -37,19 +37,19 @@
 	color:#6e73d7;
 }
 .menu ul li:hover a.shadow-hover{
-	text-shadow: -7px 6px 0 #202692;
+	text-shadow: -7px 6px 0  #d5992a;
 }
 .menu ul li a.curent-shadow{
-	text-shadow: -7px 6px 0 #202692;
+	text-shadow: -7px 6px 0  #d5992a;
 }
 .content__link,
 .home-text-freelance h2 span,
 .subscribe button:hover{
-	color:#202692;
+	color: #d5992a;
 }
 .decoshape.arrow-top,
 .content__link:hover .decoshape {
-	fill: #202692;
+	fill:  #d5992a;
 }
 .content .content__mask{
 	background-color: #363dc2;
@@ -58,14 +58,14 @@
 	fill: #282faf;
 }
 .list-social-footer li:hover{
-	background-color: #202692;
+	background-color:  #d5992a;
 }
 .portfolio-box-1 .text-on-hover,
 .case-study-wrapper li a span,
 .home-text-freelance .link,
 .tipper .tipper-content,
 .team-wrap h6 {
-	text-shadow: -5px 4px 0 #202692;
+	text-shadow: -5px 4px 0  #d5992a;
 }
 #filter li a:hover,
 #filter li .current,
@@ -73,7 +73,7 @@
 	text-shadow: -7px 5px 0 rgba(54,61,194,.3);
 }
 .home-text-freelance.shadow-text h2{
-	text-shadow: -9px 7px 0 #202692;
+	text-shadow: -9px 7px 0  #d5992a;
 }
 .home-video {	
 	outline: 1px double #363dc2;

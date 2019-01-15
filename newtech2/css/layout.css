@@ -368,11 +368,11 @@ body.royal_preloader {
 .logo{
 	position:absolute;
 	width:134px;
-	height:25px;
+	height:50px;
 	z-index:10000;
 	top:50px;
 	background:url('../images/logo-light.png') no-repeat center center;
-	background-size:134px 25px;
+	background-size:134px 50px;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -626,11 +626,11 @@ Mobile style's
 	.logo{
 		position:absolute;
 		width:100px;
-		height:18px;
+		height:50px;
 		z-index:10000;
-		top:30px;
+		top:20px;
 		background:url('../images/logo-light.png') no-repeat center center;
-		background-size:100px 18px;
+		background-size:100px 50px;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
 		-o-transition :all 0.3s ease-out;
