@@ -8,8 +8,8 @@ jQuery(document).ready(function($){
 		lettersDelay = 50,
 		//type effect
 		typeLettersDelay = 150,
-		selectionDuration = 500,
-		typeAnimationDelay = selectionDuration + 800,
+		selectionDuration = 150,
+		typeAnimationDelay = selectionDuration + 200,
 		//clip effect 
 		revealDuration = 600,
 		revealAnimationDelay = 1500;
@@ -134,7 +134,7 @@ jQuery(document).ready(function($){
 		if(!$letter.is(':last-child')) { 
 			setTimeout(function(){ showLetter($letter.next(), $word, $bool, $duration); }, $duration); 
 		} else { 
-			if($word.parents('.cd-headline').hasClass('type')) { setTimeout(function(){ $word.parents('.cd-words-wrapper').addClass('waiting'); }, 200);}
+			if($word.parents('.cd-headline').hasClass('type')) { setTimeout(function(){ $word.parents('.cd-words-wrapper').addClass('waiting'); }, 100);}
 			if(!$bool) { setTimeout(function(){ hideWord($word) }, animationDelay) }
 		}
 	}
