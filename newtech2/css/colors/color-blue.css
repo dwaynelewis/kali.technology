@@ -18,7 +18,7 @@
 .sidebar-list-two li a:hover,
 #ajax-form button:hover,
 #cd-zoom-in, #cd-zoom-out{
-	background-color:   #9E1030;
+	background-color:   white;
 }
 .cbp-af-header.cbp-af-header-shrink .menu ul li ul li a.curent-multi-page,
 .cbp-af-header.cbp-af-header-shrink .menu ul li ul li a.curent-multi-page:hover,
@@ -34,22 +34,22 @@
 .comm-link,
 .sidebar-list-one li a:hover,
 .comment a{
-	color:#6e73d7;
+	color:#9e1030;
 }
 .menu ul li:hover a.shadow-hover{
-	text-shadow: -7px 6px 0 #202692;
+	text-shadow: -7px 6px 0 white;
 }
 .menu ul li a.curent-shadow{
-	text-shadow: -7px 6px 0 #202692;
+	text-shadow: -7px 6px 0 white;
 }
 .content__link,
 .home-text-freelance h2 span,
 .subscribe button:hover{
-	color:#202692;
+	color:white;
 }
 .decoshape.arrow-top,
 .content__link:hover .decoshape {
-	fill: #202692;
+	fill: white;
 }
 .content .content__mask{
 	background-color:   #9E1030;
@@ -58,14 +58,14 @@
 	fill: #282faf;
 }
 .list-social-footer li:hover{
-	background-color: #202692;
+	background-color: white;
 }
 .portfolio-box-1 .text-on-hover,
 .case-study-wrapper li a span,
 .home-text-freelance .link,
 .tipper .tipper-content,
 .team-wrap h6 {
-	text-shadow: -5px 4px 0 #202692;
+	text-shadow: -5px 4px 0 white;
 }
 #filter li a:hover,
 #filter li .current,
@@ -73,7 +73,7 @@
 	text-shadow: -7px 5px 0 rgba(54,61,194,.3);
 }
 .home-text-freelance.shadow-text h2{
-	text-shadow: -9px 7px 0 #202692;
+	text-shadow: -9px 7px 0 white;
 }
 .home-video {	
 	outline: 1px double   #9E1030;
