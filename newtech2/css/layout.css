@@ -598,14 +598,14 @@ Mobile style's
 @media only screen and (max-width: 1199px) {
 
 	.menu-back{
-		background:#343148;
+		background:yellowgreen;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
 		-o-transition :all 0.3s ease-out;
 		transition : all 0.3s ease-out;
 	}
 	.cbp-af-header.cbp-af-header-shrink {
-		background:#343148;
+		background:yellow;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
 		-o-transition :all 0.3s ease-out;
@@ -1159,7 +1159,7 @@ figure.vimeo a:after, figure.youtube a:after {
 	content:"";
 	width:60px;
 	height:60px;
-	background:darkred;
+	background:yellowgreen;
 	z-index:9;
 	position:absolute;
 	top:50%;
