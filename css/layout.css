@@ -313,7 +313,7 @@ body.royal_preloader {
 }
 
 .cbp-af-header.cbp-af-header-shrink {
-	background:yellow;
+	background:  #D69C2F;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -459,7 +459,7 @@ body.royal_preloader {
 	font-size: 15px;
 	line-height:20px;
 	letter-spacing:1px;
-	color:darkred;
+	color:black;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -598,14 +598,14 @@ Mobile style's
 @media only screen and (max-width: 1199px) {
 
 	.menu-back{
-		background:yellowgreen;
+		background:#DD4132;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
 		-o-transition :all 0.3s ease-out;
 		transition : all 0.3s ease-out;
 	}
 	.cbp-af-header.cbp-af-header-shrink {
-		background:yellow;
+		background:#FFD662;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
 		-o-transition :all 0.3s ease-out;
@@ -1159,7 +1159,7 @@ figure.vimeo a:after, figure.youtube a:after {
 	content:"";
 	width:60px;
 	height:60px;
-	background:yellowgreen;
+	background:#DD4132;
 	z-index:9;
 	position:absolute;
 	top:50%;

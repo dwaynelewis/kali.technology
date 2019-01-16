@@ -28,7 +28,7 @@
 			tx: 250,
 			ty: 50,
 			fill: {
-				color: 'yellow',
+				color: '#FFD662',
 				duration: 500,
 				easing: 'linear'
 			},
@@ -53,7 +53,7 @@
 			tx: -30,
 			ty: -300,
 			fill: {
-				color: 'yellowgreen',
+				color: '#DD4132',
 				duration: 500,
 				easing: 'linear'
 			},
@@ -78,7 +78,7 @@
 			tx: 0,
 			ty: -100,
 			fill: {
-				color: 'yellow',
+				color: '#FFD662',
 				duration: 500,
 				easing: 'linear'
 			},
@@ -103,7 +103,7 @@
 			tx: 200,
 			ty: 200,
 			fill: {
-				color: 'yellow',
+				color: '#FFD662',
 				duration: 500,
 				easing: 'linear'
 			},
@@ -128,7 +128,7 @@
 			tx: 0,
 			ty: -50,
 			fill: {
-				color: 'yellow',
+				color: '#FFD662',
 				duration: 500,
 				easing: 'linear'
 			},
