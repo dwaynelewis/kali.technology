@@ -58,7 +58,7 @@ body {
 	color:#636363;
 	overflow-x:hidden;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-	text-shadow: .5px .5px .5px red;
+	/* text-shadow: .5px .5px .5px red; */
 	-webkit-text-size-adjust: 100%;
  }
  html {

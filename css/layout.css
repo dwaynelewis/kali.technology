@@ -5,7 +5,23 @@
 @import url("colors/color-blue.css");
 
 
-
+ .lrnbtn{
+	border-radius: 50%;
+		position: absolute;
+		top: 125%;
+		left: 50%;
+		right: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		background-color: green;
+		color: black;
+		font-size: 36px;
+		font-family: 'Montserrat', sans-serif;
+		border: none;
+		cursor: pointer;
+		width:20%;
+		text-align: center;
+	  }
 
 body.royal_preloader {
     background: none;
