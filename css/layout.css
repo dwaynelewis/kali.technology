@@ -5,7 +5,7 @@
 @import url("colors/color-blue.css");
 
 .C{
-	width:100%;
+	width:100px;
 }
  .lrnbtn{
 	border-radius: 50%;
@@ -25,7 +25,7 @@
 		text-align: center;
 		z-index: 2;
 		padding:15px;
-		overflow: visible;
+		/* overflow: visible; */
 	  }
 
 body.royal_preloader {
