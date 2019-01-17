@@ -22,6 +22,7 @@
 		width:20%;
 		text-align: center;
 		z-index: 2;
+		padding:15px;
 	  }
 
 body.royal_preloader {
