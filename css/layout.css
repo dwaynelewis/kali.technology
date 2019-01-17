@@ -196,7 +196,7 @@ body.royal_preloader {
     height: 40px;
     line-height: 40px;
     margin: 0px;
-    color: #072E77;
+    color: black;
     text-align: center;
     font-family: Arial;
     font-size: 12px;
@@ -225,7 +225,7 @@ body.royal_preloader {
     width: 60%;
     height: 2px;
     margin: -10px auto auto auto;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #D69C2F;
 }
 #royal_preloader.royal_preloader_progress .royal_preloader_meter {
     width: 0;
@@ -299,7 +299,7 @@ body.royal_preloader {
 	margin-bottom: 0;
 }
 .menu-back{
-	background: rgba(0,0,0,0);
+	background:  #D69C2F;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -398,7 +398,7 @@ body.royal_preloader {
     float: right;
     position: relative;
     top: 0;
-	color:black;
+	color: #D69C2F;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -411,7 +411,7 @@ body.royal_preloader {
     cursor: pointer;
     float: right;
     padding: 8px 12px;
-    background: #212121;
+    background:  #D69C2F;
     color: darkred;
 }
 
@@ -471,7 +471,7 @@ body.royal_preloader {
 .menu > ul > li > ul {
     display: none;
     width: 100%;
-    background: #111;
+    background: #D69C2F;
     padding: 60px 50px;
     position: absolute;
     z-index: 99999;
