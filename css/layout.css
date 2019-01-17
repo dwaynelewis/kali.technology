@@ -4,7 +4,9 @@
 
 @import url("colors/color-blue.css");
 
-
+.C{
+	width:100%;
+}
  .lrnbtn{
 	border-radius: 50%;
 		position: absolute;
