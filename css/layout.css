@@ -23,7 +23,7 @@
 		text-align: center;
 		z-index: 2;
 		padding:15px;
-		overflow-y: visible;
+		overflow: visible;
 	  }
 
 body.royal_preloader {
