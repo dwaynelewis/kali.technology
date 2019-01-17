@@ -21,6 +21,7 @@
 		cursor: pointer;
 		width:20%;
 		text-align: center;
+		z-index: 2;
 	  }
 
 body.royal_preloader {
