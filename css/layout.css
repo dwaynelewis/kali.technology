@@ -23,6 +23,7 @@
 		text-align: center;
 		z-index: 2;
 		padding:15px;
+		overflow-y: visible;
 	  }
 
 body.royal_preloader {
@@ -2126,7 +2127,7 @@ figure.vimeo a img, figure.youtube a img {
 	font-weight:400;
 	font-size: 20px;
 	line-height:28px;
-	color:#999;
+	color:#343148;
 	opacity:.6;
 	font-style: italic;
 }
