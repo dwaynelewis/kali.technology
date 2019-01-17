@@ -398,7 +398,7 @@ body.royal_preloader {
     float: right;
     position: relative;
     top: 0;
-	color: #D69C2F;
+	color: black;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
