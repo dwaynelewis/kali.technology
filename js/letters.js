@@ -7,7 +7,7 @@ jQuery(document).ready(function($){
 		//letters effect
 		lettersDelay = 50,
 		//type effect
-		typeLettersDelay = 150,
+		typeLettersDelay = 100,
 		selectionDuration = 150,
 		typeAnimationDelay = selectionDuration + 200,
 		//clip effect 
