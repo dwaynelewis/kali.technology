@@ -9,25 +9,33 @@
 }
  .lrnbtn{
 	border-radius: 50%;
-		position: absolute;
-		top: 125%;
-		left: 50%;
-		right: 50%;
-		transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		background-color: green;
-		color: black;
-		font-size: 36px;
-		font-family: 'Montserrat', sans-serif;
-		border: none;
-		cursor: pointer;
-		width:20%;
-		text-align: center;
-		z-index: 2;
-		padding:15px;
-		 overflow: visible; 
-	  }
-
+	position: absolute;
+	top: 125%;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: green;
+	color: black;
+	font-size: 36px;
+	font-family: 'Montserrat', sans-serif;
+	border: none;
+	cursor: pointer;
+	width:20%;
+	text-align: center;
+	z-index: 2;
+	padding:15px;
+	overflow: visible; 
+}
+.abutton {
+    box-sizing: border-box;
+    line-height: 1.2em;
+}
+@media screen and (max-width: 959px) {
+	.abutton {
+		width: 73px;
+	}
+}
 body.royal_preloader {
     background: none;
     visibility: hidden;
@@ -1180,7 +1188,7 @@ figure.vimeo a:after, figure.youtube a:after {
 	content:"";
 	width:60px;
 	height:60px;
-	background:#DD4132;
+	background:white;
 	z-index:9;
 	position:absolute;
 	top:50%;

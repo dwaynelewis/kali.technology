@@ -26,30 +26,30 @@
 		background:  '#DD4132;'
 	});
 
-	
-	//Home text fade on scroll	
-	
-	$(window).scroll(function () { 
+
+	//Home text fade on scroll
+
+	$(window).scroll(function () {
         var $Fade = $('.fade-elements');
-        //Get scroll position of window 
+        //Get scroll position of window
         var windowScroll = $(this).scrollTop();
-        //Slow scroll and fade it out 
+        //Slow scroll and fade it out
         $Fade.css({
             'margin-top': -(windowScroll / 0) + "px",
             'opacity': 1 - (windowScroll / 400)
         });
-    });	
+    });
 
-	
+
 	/* Scroll Animation */
-	
+
 	window.scrollReveal = new scrollReveal();
 
-	
+
 	/* Scroll Too */
-	
+
 	$(window).load(function(){"use strict";
-				
+
 		/* Page Scroll to id fn call */
 		$("menu ul li a,a[href='#top'],a[data-gal='m_PageScroll2id']").mPageScroll2id({
 			highlightSelector:"menu ul li a",
@@ -57,34 +57,34 @@
 			scrollSpeed:800,
 			scrollEasing: "easeInOutCubic"
 		});
-				
+
 		/* demo functions */
 		$("a[rel='next']").on('click', function(e){
 			e.preventDefault();
 			var to=$(this).parent().parent("section").next().attr("id");
 			$.mPageScroll2id("scrollTo",to);
 		});
-				
-	});	
-			
-	
+
+	});
+
+
 	$(document).ready(function() {
-		
-			
+
+
 		//Hover text effect
- 
+
 		$('.chaffle').chaffle({
 			speed: 10,
 			time: 60
 		});
-		
-				
+
+
 		//Tooltip
 
 		$(".tipped").tipper();
-			
-			
-		//Navigation	
+
+
+		//Navigation
 
 		"use strict";
 
@@ -123,43 +123,9 @@
 		});
 		//when clicked on mobile-menu, normal menu is shown as a list, classic rwd menu story (thanks mwl from stackoverflow)
 
-		
-		
+
+
 	});
 
-	
-  })(jQuery); 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 
-
-
-
-
-	
+  })(jQuery);
