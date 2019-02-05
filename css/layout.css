@@ -15,8 +15,8 @@
 	right: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	background-color: green;
-	color: black;
+	background-color: red;
+	color: white;
 	font-size: 36px;
 	font-family: 'Montserrat', sans-serif;
 	border: none;
@@ -254,7 +254,7 @@ body.royal_preloader {
     width: 60%;
     height: 2px;
     margin: -10px auto auto auto;
-    background-color: #D69C2F;
+    background-color: #00539C;
 }
 #royal_preloader.royal_preloader_progress .royal_preloader_meter {
     width: 0;
@@ -328,7 +328,7 @@ body.royal_preloader {
 	margin-bottom: 0;
 }
 .menu-back{
-	background:  #DD4132;;
+	background:   #00539C;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -342,7 +342,7 @@ body.royal_preloader {
 }
 
 .cbp-af-header.cbp-af-header-shrink {
-	background:  #D69C2F;
+	background: #0088ff;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -427,7 +427,7 @@ body.royal_preloader {
     float: right;
     position: relative;
     top: 0;
-	color: black;
+	color: white;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -488,7 +488,7 @@ body.royal_preloader {
 	font-size: 15px;
 	line-height:20px;
 	letter-spacing:1px;
-	color:black;
+	color:snow;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -627,14 +627,14 @@ Mobile style's
 @media only screen and (max-width: 1199px) {
 
 	.menu-back{
-		background:#DD4132;
+		background: #00539C;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
 		-o-transition :all 0.3s ease-out;
 		transition : all 0.3s ease-out;
 	}
 	.cbp-af-header.cbp-af-header-shrink {
-		background:#FFD662;
+		background:#0088ff;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
 		-o-transition :all 0.3s ease-out;
@@ -837,7 +837,7 @@ Mobile style's
 	font-size: 62px;
 	line-height:72px;
 	font-weight:700;
-	color:#343148;
+	color: #00294d;
 	text-align:left;
 	display:inline-block;
 }
@@ -1615,7 +1615,7 @@ figure.vimeo a img, figure.youtube a img {
 	position:absolute;
 	top:0;
 	left:0;
-	fill: darkred;
+	fill: #00539C;
 	display: block;
 	z-index: -1;
     -webkit-transition: all 300ms linear;
@@ -3290,10 +3290,10 @@ figure.vimeo a img, figure.youtube a img {
 	font-weight:700;
 	font-size: 14px;
 	line-height:24px;
-	color:darkred;	
+	color:#00539C;	
 }
 .footer .mail-phone a{
-	color:darkred;	
+	color:#00539C;	
 }
 .footer .mail-phone a:hover{
 	color:darkred;	
@@ -3324,7 +3324,7 @@ figure.vimeo a img, figure.youtube a img {
 	font-size: 15px;
 	line-height:40px;
 	width:40px;
-	color:darkred;
+	color:#00539C;
 	opacity:1;
 	margin:0;
 	padding:0;

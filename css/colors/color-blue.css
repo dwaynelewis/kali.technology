@@ -37,10 +37,10 @@
 	color:#9e1030;
 }
 .menu ul li:hover a.shadow-hover{
-	text-shadow: -7px 6px 0 #FFD662;
+	text-shadow: -7px 6px 0  #99cfff;
 }
 .menu ul li a.curent-shadow{
-	text-shadow: -7px 6px 0 lightcoral;
+	text-shadow: -7px 6px 0 #80c3ff;
 }
 .content__link,
 .home-text-freelance h2 span,
