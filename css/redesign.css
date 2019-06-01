@@ -41,7 +41,7 @@ body {
   right: 0;
   z-index: 10;
   padding: 16px;
-  color: white;
+  color: black;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -175,6 +175,7 @@ body {
   display: block;
   margin: auto;
   overflow: hidden;
+  background-color: #f6f6f6;
 }
 
 .slide-media {
@@ -246,12 +247,12 @@ body {
 }
 
 .block-style-1 {
-  background-color: #181818;
-  color: white;
+  background-color: #f6f6f6;
+  color: #2f5183;
 }
 .block-style-2 {
-  background: #d00000;
-  color: black;
+  background: #77212e;
+  color: #f6f6f6;
 }
 .block-style-3 {
   background: white;
