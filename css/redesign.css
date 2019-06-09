@@ -271,12 +271,12 @@ body {
 /* Specific block styling (image back ground)*/
 
 .custom-block-1 {
-  background-image: url(../images/miami@night.jpg);
+  background-image: url(../images/game-hero-bg.jpg);
   background-color: rgba(0, 0, 0, 0.45);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  /* color: white; */
 }
 
 .custom-block-2 {
